@@ -1,0 +1,2039 @@
+
+	// A
+								
+Addams Family 1, Ocean, MMC-1, 1991, 1 in 1,
+ 	Addams 1/1.jpg,
+ 	Addams 1/2.jpg,
+	Addams 1/3.jpg,
+ 	Addams 1/4.jpg;
+		
+Addams Family-Pugsleys Scavenger Hunt, Ocean, MMC-1, 1992, Claster's Cartrige,
+ 	Addams 2/1.jpg,
+ 	Addams 2/2.jpg,
+	Addams 2/3.jpg,
+	1. General/3.jpg;
+
+American Race, Absolute, unknown, 1989, 2 in 1,
+ 	American Race/1.jpg,
+	American Race/2.jpg,
+	American Race/3.jpg;
+
+Adventure Island 1, Hudson Soft, CNROM, 1986, 64 in 1,
+ 	Adventure Island Classic/1.jpg,
+ 	Adventure Island Classic/2.jpg,
+	Adventure Island Classic/3.jpg,
+ 	Adventure Island Classic/4.jpg;
+
+Adventure Island 2, Hudson Soft, MMC-3, 1991, 64 in 1,
+ 	Adventure Island 2/1.jpg,
+ 	Adventure Island 2/2.jpg,
+ 	Adventure Island 2/3.jpg;
+
+Adventure Island 3, Hudson Soft, MMC-3, 1992, Claster's Cartrige,
+ 	Adventure Island 3/1.jpg,
+ 	Adventure Island 3/2.jpg;
+
+Adventure Island 4, Hudson Soft, MMC-3, 1994, Claster's Cartrige,
+	Adventure Island 4/1.jpg,
+ 	Adventure Island 4/2.jpg;
+
+1942, Capcom, NROM, 1986, Multigames,
+ 	1942/1.jpg,
+ 	1942/2.jpg,
+	1942/3.jpg,
+ 	1. General/10.jpg;
+
+1943, Capcom, NROM, 1988, Multigames,
+ 	1943/1.jpg,
+ 	1943/2.jpg,
+	1943/3.jpg,
+ 	1. General/10.jpg;
+ 
+Aladdin, Pirate Stuff, AOROM, 1993, 1 in 1,
+ 	Aladdin/1.jpg,
+ 	Aladdin/2.jpg,
+ 	Aladdin/3.jpg;
+
+Arabian, Atari, NROM, 1982, 64 in 1,
+	Arabian/1.jpg,
+ 	Arabian/2.jpg,
+ 	Arabian/3.jpg;    
+
+Arkanoid, Taito, NROM, 1987, 64 in 1,
+        Arkanoid/1.jpg,
+ 	Arkanoid/2.jpg,
+ 	1. General/3.jpg;               
+
+Alien 3, Ljn, MMC-3, 1992, 3 in 1,
+ 	Alien 3/1.jpg,
+ 	Alien 3/2.jpg,
+	Alien 3/3.jpg,
+	Alien 3/4.jpg,
+	Alien 3/5.jpg,
+	Alien 3/6.jpg,
+	Alien 3/7.jpg,
+	Alien 3/8.jpg,
+ 	Alien 3/9.jpg;
+
+Antarctic Adventure, Konami, NROM, 1984, 64 in 1,
+ 	Antarctic Adventure/1.jpg,
+ 	Antarctic Adventure/2.jpg,
+ 	Antarctic Adventure/3.jpg;
+
+Astyanax, Jaleco, MMC-3, 1990, 4 in 1,
+ 	Astyanax/1.jpg,
+ 	Astyanax/2.jpg,
+ 	Astyanax/3.jpg ;
+
+	// B	
+
+Banana Prince, Takara, MMC-3, 1992, 2 in 1,
+ 	Banana Prince/1.jpg,
+ 	Banana Prince/2.jpg,
+	Banana Prince/3.jpg,
+	Banana Prince/4.jpg,
+	Banana Prince/5.jpg,
+ 	Banana Prince/6.jpg;
+
+Bucky O'Hare, Konami, MMC-3, 1991, Claster's Cartrige,
+ 	Bucky O'Hare/1.jpg,
+	Bucky O'Hare/2.jpg,
+	Bucky O'Hare/3.jpg,
+	Bucky O'Hare/4.jpg,
+	Bucky O'Hare/5.jpg,
+	Bucky O'Hare/6.jpg,
+	Bucky O'Hare/7.jpg,
+ 	Bucky O'Hare/8.jpg;
+
+The Best from The Best, Loriciel, UNROM, 1992, 8 in 1,
+ 	Best of the Best/1.jpg,
+ 	Best of the Best/2.png,
+ 	Best of the Best/3.jpg;
+
+Batman (1), SunSoft, MMC-3, 1989, Claster's Cartrige,
+ 	Batman/1.jpg,
+ 	Batman/2.jpg;
+
+BaseBall, Nintendo, NROM, 1985, 61 in 1,
+ 	Base Ball/1.jpg,
+ 	Base Ball/2.jpg,
+ 	Base Ball/3.jpg;
+
+Batman Return of the Joker, SunSoft, MMC-3, 1991, Claster's Cartrige,
+ 	Batman Return of the Joker/1.jpg,
+ 	Batman Return of the Joker/2.jpg;
+
+Batman Return (3), SunSoft, MMC-3, 1992, 4 in 1,
+ 	Batman Returns/1.jpg,
+ 	Batman Returns/2.jpg,
+ 	Batman Returns/3.jpg;
+
+Batman & Flash, "Konami", "MMC-3", "1992", "2 in 1",
+ 	Batman & Flash/1.jpg,
+ 	Batman & Flash/2.jpg,
+ 	Batman & Flash/3.jpg,
+	Batman & Flash/4.jpg;
+
+Battle City, Namco, NROM, 1985, Multigames,
+ 	Battle City/1.jpg,
+ 	Battle City/2.jpg,
+ 	Battle City/3.jpg,
+ 	Battle City/4.jpg,
+ 	Battle City/5.jpg;
+
+Battle Toads, Rare, AOROM, 1991, 3 in 1,
+ 	BattleToads/1.jpg,
+ 	BattleToads/2.jpg,
+	BattleToads/3.jpg,
+	BattleToads/4.jpg,
+	BattleToads/5.jpg,
+	BattleToads/6.jpg,
+	BattleToads/7.jpg,
+	BattleToads/8.jpg,
+	BattleToads/9.jpg,
+	BattleToads/10.jpg,
+	BattleToads/11.jpg,
+ 	BattleToads/12.jpg; 
+
+Battle Toads and Double Dragon, Rare, AOROM, 1993, 3 in 1,
+ 	BattleToads & Double Dragon/1.jpg,
+	BattleToads & Double Dragon/2.jpg,
+	BattleToads & Double Dragon/3.jpg,
+	BattleToads & Double Dragon/4.jpg,
+	BattleToads & Double Dragon/5.jpg,
+	BattleToads & Double Dragon/6.jpg,
+	BattleToads & Double Dragon/7.jpg,
+	BattleToads & Double Dragon/8.jpg,
+	BattleToads & Double Dragon/9.jpg;
+
+Balloon Fight, Nintendo, NROM, 1984, 64 in 1,
+ Balloon Fight/1.png,
+ Balloon Fight/2.png,
+ Balloon Fight/3.jpg;
+
+Bee-52, Code Masters, UNROM, 1992, Claster's Cartrige,
+ Bee-52/1.jpg,
+ Bee-52/2.jpg;
+
+Big Nose The Caveman, Code Masters, UNROM, 1991, 2 in 1,
+ Big Nose The Caveman/1.jpg,
+ Big Nose The Caveman/2.jpg,
+ Big Nose The Caveman/3.jpg,
+ Big Nose The Caveman/4.jpg,
+ Big Nose The Caveman/5.jpg;
+
+Big Nose Freaks Out, Code Masters, UNROM, 1992, 2 in 1,
+ Big Nose Freaks Out/1.jpg,
+ Big Nose Freaks Out/2.jpg,
+ Big Nose Freaks Out/3.jpg;
+
+Blades of Steel, Konami, unknown, 1990, 3 in 1,
+ Blades of Steel/1.png,
+ Blades of Steel/2.png,
+ Blades of Steel/3.jpg;
+
+Blues Brothers, Titus, unknown, 1991, 1 in 1,
+ Blues Brothers/1.png,
+ Blues Brothers/2.jpg,
+ Blues Brothers/3.jpg;
+
+Bomber Man, Hudson Soft, NROM, 1987, Multigames,
+ Bomberman/1.png,
+ Bomberman/2.jpg,
+ Bomberman/3.jpg,
+ Bomberman/4.jpg,
+ 1. General/10.jpg;
+
+Bomber Man 2, Hudson Soft, NROM, 1991, Claster's Cartrige,
+ Bomberman 2/1.jpg,
+ Bomberman 2/2.jpg;	
+                                            
+	// C
+
+Castlevania 1, Konami, UNROM, 1987, 8 in 1,
+ Castlevania 1/1.jpg,
+ Castlevania 1/2.jpg,
+ Castlevania 1/3.jpg,
+ Castlevania 1/4.jpg,
+ Castlevania 1/5.jpg,
+ Castlevania 1/6.jpg,
+ Castlevania 1/7.jpg;
+
+Castlevania 2, Konami, MMC-1, 1988, Claster's Cartrige,
+ Castlevania 2/1.jpg,
+ Castlevania 2/2.jpg;
+
+Castlevania 3, Konami, MMC-5, 1990, Claster's Cartrige,
+ Castlevania 3/1.jpg,
+ Castlevania 3/2.jpg;
+
+Cabal, FabTek, AOROM, 1989, Claster's Cartrige,
+ Cabal/1.jpg,
+ Cabal/2.jpg;
+
+Capitan America, Data East, MMC-3, 1991, Claster's Cartrige,
+ Capitan America and The Avengers/1.jpg,
+ Capitan America and The Avengers/2.jpg;
+
+CastleQuest (Castle Excellent), Nexoft, CNROM, 1986, 7 in 1,
+ Castel Quest/1.jpg,
+ Castel Quest/2.jpg,
+ Castel Quest/3.jpg,
+ Castel Quest/4.jpg;
+
+ClifHanger, SONY ImageSoft, MMC-3, 1991, 2 in 1,
+ Cliffhanger/1.jpg,
+ Cliffhanger/2.jpg,
+ Cliffhanger/3.jpg,
+ Cliffhanger/4.jpg,
+ Cliffhanger/5.jpg,
+ Cliffhanger/6.jpg,
+ Cliffhanger/7.jpg,
+ Cliffhanger/8.jpg;
+
+Chip and Dale 1, Capcom, MMC-1, 1990, 1 in 1,
+ Chip & Dale Rescue Rangers 1/1.jpg,
+ Chip & Dale Rescue Rangers 1/2.jpg,
+ Chip & Dale Rescue Rangers 1/3.jpg,
+ Chip & Dale Rescue Rangers 1/4.jpg,
+ Chip & Dale Rescue Rangers 1/5.jpg,
+ Chip & Dale Rescue Rangers 1/6.jpg,
+ 1. General/5.jpg;
+
+Chip and Dale 2, Capcom, MMC-1, 1993, 1 in 1,
+ Chip & Dale Rescue Rangers 2/1.jpg,
+ Chip & Dale Rescue Rangers 2/2.jpg,
+ Chip & Dale Rescue Rangers 2/3.jpg,
+ Chip & Dale Rescue Rangers 2/4.jpg,
+ Chip & Dale Rescue Rangers 2/5.jpg,
+ Chip & Dale Rescue Rangers 2/6.jpg,
+ Chip & Dale Rescue Rangers 2/7.jpg,
+ 1. General/5.jpg;
+
+Chip and Dale 3, Pirate Stuff, MMC-3, 1992, 1 in 1,
+ Chip and Dale 3/1.jpg,
+ Chip and Dale 3/2.jpg,
+ Chip and Dale 3/3.jpg,
+ 1. General/5.jpg,
+ 1. General/6.jpg,
+ 1. General/11.jpg;
+
+Circus Charlie, Konami, NROM, 1985, 64 in 1,
+ Circus Charli/1.jpg,
+ Circus Charli/2.jpg,
+ Circus Charli/3.jpg,
+ 1. General/10.jpg;
+
+City Connection, Jaleco, NROM, 1986, 64 in 1,
+ City Connection/1.jpg,
+ City Connection/2.jpg,
+ City Connection/3.jpg;
+
+Cobra Command (Urban Strike), Data East, MMC-1, 1988, 2 in 1,
+ Urban Strike (Cobra Command)/1.jpg,
+ Urban Strike (Cobra Command)/2.jpg,
+ Urban Strike (Cobra Command)/3.jpg,
+ Urban Strike (Cobra Command)/4.jpg,
+ Urban Strike (Cobra Command)/5.jpg,
+ Urban Strike (Cobra Command)/6.jpg,
+ Urban Strike (Cobra Command)/7.jpg,
+ Urban Strike (Cobra Command)/8.jpg;
+
+Cross Fire, Kyugo, MMC-3, 1990, Claster's Cartrige,
+	Cross Fire/1.jpg,
+	Cross Fire/2.jpg;
+
+Chinese Chess, no name, NROM, 1984, 64 in 1,
+	Chinese Chest/1.jpg,
+	Chinese Chest/2.jpg,
+	1. General/9.jpg;
+
+Contra 1, Konami, UNROM, 1987, 6 in 1,
+ Contra/1.jpg,
+ Contra/2.jpg,
+ Contra/3.jpg, 
+ Contra/4.jpg,
+ Contra/5.jpg,
+ Contra/6.jpg,
+ Contra/7.jpg,
+ Contra/8.jpg,
+ Contra/9.jpg;
+
+Contra 1 (Japan), Konami, UNROM, 1987, Claster's Cartrige,
+	Contra Japan/1.jpg,
+	Contra Japan/2.jpg;
+
+Contra 2 (Super Contra), Konami, MMC-3, 1988, 1 in 1,
+ Super Contra/1.jpg,
+ Super Contra/2.jpg,
+ Super Contra/3.jpg;
+
+Contra Force, Konami, MMC-3, 1992, 2 in 1,
+ Contra Force/1.jpg,
+ Contra Force/2.jpg,
+ Contra Force/3.jpg;
+
+Conquest of the Cristal Palace, Asmik, MMC-3, 1990, Claster's Cartrige,
+	Conquest of the Crystal Palace/1.jpg,
+	Conquest of the Crystal Palace/2.jpg;
+
+	// D
+			
+Darkwing Duck, Capcom, MMC-1, 1992, 3 in 1,
+ Darkwing Duck/1.jpg,
+ Darkwing Duck/2.jpg,
+ Darkwing Duck/3.jpg,
+ Darkwing Duck/4.jpg,
+ Darkwing Duck/5.jpg,
+ Darkwing Duck/6.jpg,
+ Darkwing Duck/7.jpg,
+ Darkwing Duck/8.jpg,
+ Darkwing Duck/9.jpg,
+ Darkwing Duck/10.jpg,
+ Darkwing Duck/11.jpg;
+			
+Darkwing Duck 2, Pirate Stuff, MMC-3, 1993, 1 in 1,
+ Darkwing Duck 2/1.jpg,
+ Darkwing Duck 2/2.jpg,
+ Darkwing Duck 2/3.jpg,
+ 1. General/11.jpg;
+			
+Dick Tracy, Bandai, UNROM, 1990, Claster's Cartrige,
+ Dick Tracy/1.jpg,
+ Dick Tracy/2.jpg;
+
+Dig Dug, Namco, NROM, 1982, Claster's Cartrige,
+	Dig Dug/1.jpg,
+	Dig Dug/2.jpg;
+
+Dizzy The Adventurer, Code Masters, UNROM, 1990, Claster's Cartrige,
+	Dizzy The Adventurer/1.jpg,
+	Dizzy The Adventurer/2.jpg,
+	Dizzy The Adventurer/3.png;
+
+Don Doko Don 2, Taito, unknown, 1992, Claster's Cartrige,
+	Don Doko Don 2/1.jpg,
+	Don Doko Don 2/2.jpg,
+	Don Doko Don 2/3.jpg,
+	Don Doko Don 2/4.jpg,
+	Don Doko Don 2/5.jpg;
+			
+Donkey Kong, Nintendo, CNROM, 1985, 64 in 1,
+	Donkey Kong/1.jpg,
+	Donkey Kong/2.jpg,
+	Donkey Kong/3.jpg,
+        1. General/10.jpg;
+			
+Donkey Kong Junior, Nintendo, CNROM, 1985, 64 in 1,
+ Donkey Kong JR/1.jpg,
+ Donkey Kong JR/2.jpg,
+ Donkey Kong JR/3.jpg,
+ Donkey Kong JR/4.jpg,
+        1. General/10.jpg;
+			
+Donkey Kong 2 Nintendo Pirate Port, Pirate Stuff, unknown, 1993, 1 in 1,
+	Donkey Kong 2 Pirate/1.jpg;
+	
+			
+Donkey Kong 3, Nintendo, CNROM, 1985, 64 in 1,
+ Donkey Kong 3/1.png,
+ Donkey Kong 3/2.png,
+ Donkey Kong 3/3.jpg,
+ Donkey Kong 3/4.jpg,
+        1. General/10.jpg;
+			
+Donald Land, Data East, MMC-1, 1987, Claster's Cartrige,
+	Donald Land/1.jpg,
+	Donald Land/2.jpg;
+
+Double Dragon 1, TradeWest, MMC-1, 1988, Claster's Cartrige,
+ Double Dragon/1.jpg,
+ Double Dragon/2.jpg;
+		
+Double Dragon 2, Acclaim, MMC-3, 1989, 3 in 1,
+ Double Dragon 2/1.jpg,
+ Double Dragon 2/2.jpg,
+ Double Dragon 2/3.jpg;
+			
+Double Dragon 3, Acclaim, MMC-3, 1990, 3 in 1,
+ Double Dragon 3/1.jpg,
+ Double Dragon 3/2.jpg;	
+		
+Doki! Doki! Yuuenchi, no name, unknown, 1991, Claster's Cartrige,
+	Doki! Doki! Yuuenchi/1.jpg,
+	Doki! Doki! Yuuenchi/2.jpg;
+			
+Double Dribble, Konami, UNROM, 1987, 8 in 1,
+ Double Dribble/1.jpg,
+ Double Dribble/2.jpg,
+ Double Dribble/3.jpg,
+ Double Dribble/4.jpg;
+			
+Duck Hunt, Nintendo, NROM, 1985, 1 in 1,
+ Duck Hunt/1.jpg,
+ Duck Hunt/2.jpg,
+ Duck Hunt/3.jpg,
+ Duck Hunt/4.jpg,
+ Duck Hunt/5.jpg,
+ Duck Hunt/6.jpg,
+ Duck Hunt/7.jpg,
+ Duck Hunt/8.jpg,
+ 1. General/10.jpg;
+				
+Duck Tales 1, Capcom, UNROM, 1989, 4 in 1,
+ 	Duck Tales/1.jpg,
+ 	Duck Tales/2.jpg,
+	Duck Tales/3.jpg,
+	Duck Tales/4.jpg,
+	Duck Tales/5.jpg,
+ 	Duck Tales/6.jpg;
+			
+Duck Tales 2, Capcom, UNROM, 1993, 4 in 1,
+ 	Duck Tales 2/1.jpg,
+ 	Duck Tales 2/2.jpg,
+ 	Duck Tales 2/3.jpg,
+ 	Duck Tales 2/4.jpg,
+	Duck Tales 2/5.jpg,
+	Duck Tales 2/6.jpg,
+	Duck Tales 2/7.jpg,
+	Duck Tales 2/8.jpg,
+ 	Duck Tales 2/9.jpg;
+			
+Dracula (Bram Stoker's), SONY ImageSoft, MMC-3, 1992, Claster's Cartrige,
+	Dracula/1.jpg,
+	Dracula/2.jpg;
+		
+Dragon's Layer, Elite, UNROM, 1990, Kinaman was playing,
+ 	Dragon's Layer/1.jpg,
+ 	Dragon's Layer/2.png;
+			
+Dr. Mario, Nintendo, unknown, 1990, Claster's Cartrige,
+	Dr. Mario/1.jpg,
+	Dr. Mario/2.jpg;
+	
+	// E
+					
+Eliminating Boat Duel, Storm, MMC-1, 1991, 2 in 1,
+ 	Eliminator Boat Duel/1.jpg,
+ 	Eliminator Boat Duel/2.jpg,
+	Eliminator Boat Duel/3.jpg,
+	Eliminator Boat Duel/4.jpg,
+	Eliminator Boat Duel/5.jpg,
+	Eliminator Boat Duel/6.jpg,
+	Eliminator Boat Duel/7.jpg,
+	Eliminator Boat Duel/8.jpg,
+ 	Eliminator Boat Duel/9.jpg;
+		
+"ExciteBike", "Nintendo", "NROM", "1985", "23 in 1",
+	Excite Bike/1.jpg",
+	Excite Bike/2.jpg",
+	Excite Bike/3.jpg",
+        1. General/10.jpg;
+			
+Exerion, Jaleco, NROM, 1983, "64 in 1",
+	Exerion/1.jpg,
+	Exerion/2.jpg,
+	Exerion/3.jpg;
+
+	// F
+			
+Family Basic, "Nintendo", unknown, "1984", Claster's Cartirge,
+	Family Basic/1.jpg,
+	Family Basic/2.jpg,
+	Family Basic/3.jpg;
+
+F-1 Race, "HAL Laboratory", "NROM", "1984", 64 in 1,
+	F-1 Race/1.jpg,
+	F-1 Race/2.jpg,
+	1. General/9.jpg;
+
+F-1 Sensation, "Konami", "unknown", "1993", Claster's Cartrige,
+	F-1 Sensation/1.jpg,
+	F-1 Sensation/2.jpg;
+                        
+Front Line, "Taito", "NROM", "1985", 64 in 1,
+	Front Line/1.jpg,
+	Front Line/2.jpg,
+	1. General/9.jpg;
+			
+The Fantastic Adventures of Dizzy, Code Masters, UNROM, 1992, 1 in 1,
+ 	Dizzy/1.jpg,
+	Dizzy/2.jpg,
+	Dizzy/3.jpg,
+	Dizzy/4.jpg,
+	Dizzy/5.jpg,
+ 	Dizzy/6.jpg;
+			
+Felix The Cat, Hudson Soft, MMC-3, 1992, 1 in 1,
+ 	Felix The Cat/1.png,
+ 	Felix The Cat/2.png,
+ 	Felix The Cat/3.jpg, 
+ 	Felix The Cat/4.jpg,
+	Felix The Cat/5.jpg,
+	Felix The Cat/6.jpg,
+ 	Felix The Cat/7.jpg;
+			
+Felix The Cat by Dragon Co", "Dragon Co", unknown, "1992", Claster's Cartrige,
+	Felix by Dragon/1.jpg,
+	Felix by Dragon/2.jpg,
+	Felix by Dragon/3.jpg,
+	1. General/3.jpg;
+ 			
+Ferrari Grand Challenge", "Acclaim", "unknown", "1992", Claster's Cartrige,
+	Ferrari Grand Challenge/1.jpg,
+	Ferrari Grand Challenge/2.jpg;
+			
+Formation Z, "Jaleco", "NROM", "1985", "64 in 1",
+	Formation Z/1.jpg",
+ 	Formation Z/2.jpg",
+ 	Formation Z/3.jpg;
+			
+Flintstones Rescue of Dino & Hoppy, "Taito", "MMC-3", "1991", "4 in 1",
+ 	The Flintstones - The Rescue of Dino & Hoppy/1.jpg",
+ 	The Flintstones - The Rescue of Dino & Hoppy/2.jpg",
+ 	The Flintstones - The Rescue of Dino & Hoppy/3.jpg";
+			
+Flintstones Surprise at Dinosaur Peak, "Taito", "MMC-3", "1993", "4 in 1",
+ 	The Flintstones  - The Surprise at Dinosaur Peak/1.jpg",
+ 	The Flintstones  - The Surprise at Dinosaur Peak/2.jpg",
+ 	The Flintstones  - The Surprise at Dinosaur Peak/3.jpg;
+			
+Flying Hero, "no name", "UNROM", "1985", 7 in 1,
+	Flying Hero/1.jpg, 
+	Flying Hero/2.jpg,
+	Flying Hero/3.jpg;    
+                      
+Flying Warriors, Culture Brain, unknown, "1991", Claster's Cartrige,
+	Flying Wariors/1.jpg,
+	Flying Wariors/2.jpeg;
+			
+Fist of the North Star, "Taxan", "UNROM", "1988", "4 in 1",
+ Fist of The North Star/1.jpg",
+ Fist of The North Star/2.jpg",
+ Fist of The North Star/3.jpg";
+			
+Final Fantasy, "no name", unknown, "1990", Claster's Cartrige,
+	Final Fantasy/1.jpg,
+	Final Fantasy/2.jpg;       
+                   
+Final Fantasy 2, "no name", unknown, "1990", Claster's Cartrige,
+	Final Fantasy 2/1.png; 
+                       
+Final Fantasy 3, "no name", unknown, "1990", Claster's Cartrige,
+	Final Fantasy 3/1.jpg;
+                      
+Final Fantasy 7, "no name", unknown, "1990", Claster's Cartrige,
+	Final Fantasy 7/1.png; 
+                     
+Final Mission (S.C.A.T.), "Natsume", "MMC-1", "1990, Claster's Cartrige,
+	Final Mission/1.jpg,
+	Final Mission/2.jpg,
+	Final Mission/3.jpg,
+	Final Mission/4.jpg,
+	Final Mission/5.jpg,
+	1. General/3.jpg";
+            
+Fire Emblem Gaiden, Nintendo, unknown, "1991", Claster's Cartrige,
+	Fire Emblem Gaiden/1.png,
+	Fire Emblem Gaiden/2.jpg;
+                 
+Friday The 13-th, "Ljn", "unknown", "1988", Claster's Cartrige,
+	Friday The 13-th/1.jpg,
+	Friday The 13-th/2.jpg;
+
+	// G
+						
+Galaga, Namco, NROM, 1981, Multigame,
+	Galaga/1.jpg,
+	Galaga/2.jpg,
+	Galaga/3.jpg,
+	Galaga/4.jpg,
+	Galaga/5.jpg,
+	1. General/4.jpg,
+	1. General/9.jpg,
+	1. General/10.jpg;
+			
+Great Tank, "SNK", "MMC-1", "1988", "2 in 1",
+	Great Tank/1.jpg",
+	Great Tank/2.jpg",
+	Great Tank/3.jpg";     
+			
+Galaxian, Namco, NROM, 1979, Multigame,
+	Galaxian/1.jpg,
+	Galaxian/2.jpg,
+	Galaxian/3.png,
+	Galaxian/4.jpg,
+	Galaxian/5.jpg,
+	Galaxian/6.jpg,
+	1. General/4.jpg,
+	1. General/9.jpg,
+	1. General/10.jpg;
+                   
+Galaxy 5000, "Activision", "NROM", "1991", Claster's Cartrige,
+	Galaxy 5000/1.jpg;
+			
+Green Beret", "Konami", "UNROM", "1985", "2 in 1",
+	Green Beret/1.jpg,
+	Green Beret/2.jpg,
+	Green Beret/3.jpg,
+	Green Beret/4.jpg;
+			
+Gremlins 2, "SunSoft", "MMC-3", "1990", "Claster's Cartrige",
+	Gremlins 2/1.jpg",
+	Gremlins 2/2.jpg";
+			
+Ghostbusters, "Activision", "CNROM", "1984", "7 in 1",
+	GhostBusters/1.png",
+	GhostBusters/2.jpg",
+	GhostBusters/3.jpg",
+        1. General/8.jpg;   
+			
+Ghostbusters 3  (2), Activision, MMC-1, 1989, 2 in 1,
+	GhostBusters 2/1.jpg,
+	GhostBusters 2/2.jpg,
+	GhostBusters 2/3.jpg,
+        GhostBusters 2/4.jpg,
+	GhostBusters 2/5.jpg,
+	GhostBusters 2/6.jpg,
+	GhostBusters 2/7.jpg,
+	GhostBusters 2/8.jpg,
+	GhostBusters 2/9.jpg,
+	GhostBusters 2/10.jpg,
+	GhostBusters 2/11.jpg,
+	GhostBusters 2/12.jpg,
+        1. General/8.jpg;  
+			                             
+Go! Dizzy! Go!, "Code Masters", "unknown", "1992", Claster's Cartrige,
+	Go Dizzy Go/1.png,
+	Go Dizzy Go/2.jpg;
+                        
+Godzilla, Toho Co, unknown, "1988", Claster's Cartrige,
+	Godzilla/1.jpg,
+	Godzilla/2.jpg; 
+                           
+Gold Medal Challenge '92, "Capcom", "unknown", "1992", Claster's Cartrige,
+	Gold Medal Challenge '92/1.jpg,
+	Gold Medal Challenge '92/2.jpg; 
+			                           
+Golgo 13, "Tokai", "MMC-1", "1990", Don't have one,
+	Golgo 13/1.jpg,
+	Golgo 13/2.jpg,
+	Golgo 13/3.jpg,
+	Golgo 13/4.jpg;
+		
+Golf, "Nintendo", "NROM", "1985", 64 in 1,
+	Golf/1.jpg,
+	Golf/2.jpg,
+	1. General/9.jpg;
+			
+Ghosts 'N Goblins, "Capcom", "UNROM", "1988", "Claster's Cartrige",
+	Ghosts 'N Goblins/1.jpg",
+	Ghosts 'N Goblins/2.jpg"; 
+			
+Goonies, "Konami", "NROM", "1986", "1 in 1",
+	Goonies/1.jpg",
+	Goonies/2.jpg",
+	Goonies/3.jpg";
+			
+Goonies 2, "Konami", unknown, "1987", Claster's Cartrige,
+	Goonies 2/1.jpg,
+	Goonies 2/2.jpg;        
+			
+Gradius 1, "Konami", "CNROM", "1986", "64 in 1",
+	Gradius 1/1.jpg",
+	Gradius 1/2.jpg",
+	Gradius 1/3.jpg";
+			
+Gradius 2, "Konami", "CNROM", "1988", Claster's Cartrige,
+	Gradius 2/1.jpg,
+	Gradius 2/2.jpg;
+                           
+The Guardian Legend, "Broderbund", "UNROM", "1988", Don't have one,
+	Gurdian Legend/1.jpg,
+	Gurdian Legend/2.jpg,
+	Gurdian Legend/3.jpg,
+	Gurdian Legend/4.jpg,
+	Gurdian Legend/5.jpg;
+			
+Guerrilla War, "SNK", "MMC-1", "1989", "3 in 1",
+	Guerrilla War/1.jpg",
+	Guerrilla War/2.jpg",
+	Guerrilla War/3.jpg";
+			
+Gun. Smoke, Capcom, UNROM, 1987, 8 in 1,
+	Gun. Smoke/1.png,
+	Gun. Smoke/2.jpg,
+	Gun. Smoke/3.jpg,
+	Gun. Smoke/4.jpg,
+	Gun. Smoke/5.jpg,
+	Gun. Smoke/6.jpg,
+	Gun. Smoke/7.jpg,
+	Gun. Smoke/8.jpg,
+	Gun. Smoke/9.jpg;
+			
+Gyrodine, "Taito", "CNROM", "1986", "23 in 1",
+	Gyrodine/1.jpg",
+	Gyrodine/2.jpg",
+	Gyrodine/3.jpg";
+					
+
+	// H
+			
+Heavy Barrel, Data East, MMC-3, 1989, Claster's Cartrige,
+	Heavy Barrel/1.jpg,
+	Heavy Barrel/2.jpg,
+	Heavy Barrel/3.jpg,
+	Heavy Barrel/4.jpg,
+	Heavy Barrel/5.jpg,
+	Heavy Barrel/6.jpg,
+	Heavy Barrel/7.jpg;
+		    
+Home Alone 1, "Toy Headquarters", "MMC-3", "1991", "Claster's Cartrige",
+	Home Alone/1.jpg",
+	Home Alone/2.jpg";
+		    
+Home Alone 2, Toy Headquarters, MMC-3, 1991, 2 in 1,
+	Home Alone 2/1.jpg,
+	Home Alone 2/2.jpg,
+	Home Alone 2/3.jpg,
+	Home Alone 2/4.jpg,
+	Home Alone 2/5.jpg,
+	Home Alone 2/6.jpg,
+	Home Alone 2/7.jpg,
+	Home Alone 2/8.jpg,
+	Home Alone 2/9.jpg,
+	Home Alone 2/10.jpg,
+	Home Alone 2/11.jpg,
+	Home Alone 2/12.jpg;
+		    
+Hunt for The Red October, Hi Tech Expressions, MMC-3, 1990, 2 in 1,
+	The Hunt for Red October/1.jpg,
+	The Hunt for Red October/2.jpg,
+	The Hunt for Red October/3.jpg,
+	The Hunt for Red October/4.jpg,
+	The Hunt for Red October/5.jpg,
+	The Hunt for Red October/6.jpg,
+	The Hunt for Red October/7.jpg,
+	The Hunt for Red October/8.jpg,
+	The Hunt for Red October/9.jpg,
+	The Hunt for Red October/10.jpg;
+
+	// I
+		    
+Ice Clumber, Nintendo, NROM, 1985, Multigame,
+	Ice Clamber/1.jpeg,
+	Ice Clamber/2.jpg,
+	Ice Clamber/3.jpg,
+	Ice Clamber/4.jpg,
+	Ice Clamber/5.jpg,
+	Ice Clamber/6.jpg,
+        1. General/10.jpg;
+		    
+Ice Hockey, "Nintendo", "unknown", "1988", Claster's Cartrige,
+	Ice Hockey/1.jpg,
+	Ice Hockey/2.jpg,
+	Ice Hockey/3.jpg,
+	1. General/3.jpg;
+			    
+Ikari Warriors, "SNK", "UNROM", "1986", "4 in 1",
+	Ikari Warriors/1.jpg,
+	Ikari Warriors/2.jpg,
+	Ikari Warriors/3.jpg,
+	Ikari Warriors/4.jpg;
+		    
+Ikari Warriors 2, "SNK", unknown, "1986", Claster's Cartrige,
+	 Ikari Wariors 2/1.jpg;
+                
+Ikari Warriors 3, "SNK", "unknown", "1989", Claster's Cartrige,
+	 Ikari Wariors 3/1.jpg;  
+		    
+Indiana Jones and The Last Crusade (T), "Taito", "MMC-1", "1991, "Claster's Cartrige",
+	Indiana Jones and the Last Crusade (Taito)/1.jpg",
+	Indiana Jones and the Last Crusade (Taito)/2.jpg";
+		    
+Indiana Jones and The Last Crusade, "Lucasfilm Games", "UNROM", "1990", "Claster's Cartrige",
+	Indiana Jones and The Last Crusaide/1.jpg",
+	Indiana Jones and The Last Crusaide/2.jpg";
+		    
+Indiana Jones and The Tample of Doom, "Tengen", "MMC-3", "1988", "2 in 1",
+	Indiana Jones and The Tample of Doom/1.jpg",
+	Indiana Jones and The Tample of Doom/2.jpg",
+	Indiana Jones and The Tample of Doom/3.jpg";
+	
+	// J
+	    
+The Young Indiana Jones, "Jaleco", "MMC-3", "1992", "Claster's Cartrige",
+	Indiana Jones The young chronicals/1.png",
+	Indiana Jones The young chronicals/2.png;
+		    		    
+Jackal, Konami, UNROM, 1988, 2 in 1,
+	Jackal/1.png,
+	Jackal/2.jpg,
+	Jackal/3.jpg,
+	Jackal/4.jpg,
+	Jackal/5.jpg,
+	Jackal/6.jpg,
+	Jackal/7.jpg,
+	Jackal/8.jpg,
+	Jackal/9.jpg,
+	Jackal/10.jpg;
+			
+Jackie Chan's Act Kung Fu, "Hudson Soft", "unknown", "1990", "Claster's Cartrige",
+	Jackie Chan's Action Kung Fu/1.jpg,
+	Jackie Chan's Action Kung Fu/2.jpg,
+	Jackie Chan's Action Kung Fu/3.jpg,
+	1. General/3.jpg;
+
+James Bond Junior, "Toy Headquarters", "MMC-3", "1991", "Claster's Cartrige",
+	James Bond Jr/1.jpg",
+	James Bond Jr/2.jpg";
+			
+Joe and Mac, Data East, MMC-3, 1992, 2 in 1,
+	Joe & Mag/1.jpg,
+	Joe & Mag/2.jpg,
+	Joe & Mag/3.jpg,
+	Joe & Mag/4.jpg,
+	Joe & Mag/5.jpg,
+	Joe & Mag/6.jpg,
+	Joe & Mag/7.jpg;
+			
+Jungle Book, Virgin, MMC-3, 1994, 2 in 1,
+	The Jungle Book/1.jpg,
+	The Jungle Book/2.jpg,
+	The Jungle Book/3.jpg,
+	The Jungle Book/4.jpg,
+	The Jungle Book/5.jpg,
+	The Jungle Book/6.jpg,
+	The Jungle Book/7.jpg;
+			
+Jurassic Park, "Ocean", "MMC-3", "1993", "1 in 1",
+	Jurassic Park/1.jpg,
+	Jurassic Park/2.jpg,
+	Jurassic Park/3.jpg,
+	Jurassic Park/4.jpg,
+	Jurassic Park/5.jpg,
+	Jurassic Park/6.jpg,
+	Jurassic Park/7.jpg,
+	Jurassic Park/8.jpg,
+	Jurassic Park/9.jpg,
+	1. General/6.jpg;
+
+	// K
+			
+Kero Kero Keroppi, "no name", unknown, "1988", Claster's Cartrige,
+	Kero Kero Keroppi/1.jpg,
+	Kero Kero Keroppi/2.jpg;
+
+Kero Kero Keroppi 2", "no name", "MMC-1", "1993", "Claster's Cartrige",
+	Kero Kero Keroppi no Daibouken 2 (Toads Mario)/1.jpg",
+	Kero Kero Keroppi no Daibouken 2 (Toads Mario)/2.jpg";
+			
+Kiwi Kraze (New Zeland Stary)", "Taito", "unknown", "1990", "4 in 1",
+	Kiwi Krase/1.jpg",
+	Kiwi Krase/2.png",
+	Kiwi Krase/3.jpg";
+			
+Kirby's Adventure, "Nintendo", "MMC-3", "1993", "Claster's Cartrige",
+	Kirby's Adventure/1.jpg",
+	Kirby's Adventure/2.jpg";
+			
+Karnov, "Data East", "MMC-3", "1987", "Claster's Cartrige",
+	Karnov/1.jpg",
+	Karnov/2.jpg";
+			
+Kid Kool, "no name", "UNROM", "1989", "6 in 1",
+	Kid Kool/1.jpg",
+	Kid Kool/2.jpg",
+	Kid Kool/3.jpg";
+			
+Karate Kid, "Ljn", "CNROM", "1987", "7 in 1",
+	Karate Kid/1.jpg",
+	Karate Kid/2.jpg",
+	Karate Kid/3.jpg";
+			
+Karateka,"no name", unknown, "1984", 64 in 1,
+	Karateka/1.jpg,
+	Karateka/2.jpg,
+	Karateka/3.jpg,
+	1. General/9.jpg;
+
+Kung Fu Heroes, Numcot, unknown, 19**, Claster's Cartrige,
+	Kung Fu Heros/1.jpg,
+	Kung Fu Heros/2.jpg;
+
+	// L
+			
+Last Ninja, "Jaleco", "MMC-3", "1988", "Claster's Cartrige",
+	Last Ninja/1.jpg",
+	Last Ninja/2.jpg";
+
+Last Action Hero, "SONY ImageSoft", "MMC-3", "1988", "Claster's Cartrige",
+	Last Action Hero/1.jpg",
+	Last Action Hero/2.jpg",
+        Last Action Hero/3.jpg";
+			
+The Legend of Zelda, "Nintendo", "MMC-1", "1986", "Claster's Cartrige",
+	The Legend of Zelda/1.jpg",
+	The Legend of Zelda/2.jpg";
+			
+Legendary Wings, Capcom, UNROM, 1988, 8 in 1,
+	Legendary Wings/1.jpg,
+	Legendary Wings/2.jpg,
+	Legendary Wings/3.jpg,
+	Legendary Wings/4.jpg,
+	Legendary Wings/5.jpg,
+	Legendary Wings/6.jpg,
+	Legendary Wings/7.jpg;
+			
+Lethal Weapon, Ocean, MMC-1, 1992, 7 in 1,
+	Lethal Weapon/1.jpg,
+	Lethal Weapon/2.jpg,
+	Lethal Weapon/3.jpg,
+	Lethal Weapon/4.jpg,
+	Lethal Weapon/5.jpg,
+	Lethal Weapon/6.jpg,
+	Lethal Weapon/7.jpg,
+	Lethal Weapon/8.jpg;
+			
+Life Force, "Konami", "UNROM", "1988", "Claster's Cartrige",
+	Life force/1.jpg",
+	Life force/2.jpg";
+			
+Little Mario (Xiao ma li), no name, NROM, 1986, 9999 in 1,
+	Little Mario (Xiao ma li)/1.png,
+	Little Mario (Xiao ma li)/2.jpg,
+	Little Mario (Xiao ma li)/3.png,
+	Little Mario (Xiao ma li)/4.jpg,
+	Little Mario (Xiao ma li)/5.jpg;
+
+			
+Little Nemo The Dream Master, Capcom, MMC-3, 1990, 1 in 1,
+	Little Nemo - The Dream Master/1.jpg,
+	Little Nemo - The Dream Master/2.jpg,
+	Little Nemo - The Dream Master/3.jpg,
+	Little Nemo - The Dream Master/4.jpg,
+	Little Nemo - The Dream Master/5.jpg,
+	Little Nemo - The Dream Master/6.jpg,
+	Little Nemo - The Dream Master/7.jpg,
+	Little Nemo - The Dream Master/8.jpg,
+        1. General/11.jpg;
+			
+Little Samson, "Taito, "MMC-3", "1992", Claster's Cartrige,
+	Little Samson/1.jpg,
+	Little Samson/2.jpg;	
+                       
+Linus Spacehead's Cosmic, "Code Masters", "UNROM", "1992", Claster's Cartrige,
+	Linus Spacehead's/1.jpg,
+	Linus Spacehead's/2.jpg;
+			
+The Little Mermaid, Capcom, UNROM, 1991, 4 in 1,
+	Mermaid/1.jpg,
+	Mermaid/2.jpg,
+	Mermaid/3.jpg,
+	Mermaid/4.jpg,
+	Mermaid/5.jpg,
+	Mermaid/6.jpg,
+	Mermaid/7.jpg,
+	Mermaid/8.jpg,
+	Mermaid/9.jpg,
+	Mermaid/10.jpg;
+			
+Lode Runner 1, Hudson Soft, NROM, 1984, 1 in 1,
+	Lode Runner/1.jpg,
+	Lode Runner/2.jpg,
+	Lode Runner/3.jpg,
+	Lode Runner/4.jpg,
+	Lode Runner/5.jpg,
+	Lode Runner/6.jpg,
+        1. General/10.jpg;
+			
+Lode Runner 2, "Hudson Soft", "NROM", "1984", Claster's Cartrige,
+	Lode Runner 2/1.jpg",
+	Lode Runner 2/2.jpg";
+                       
+Lode Runner Championship, "Hudson Soft", "NROM", "1984", Claster's Cartrige,
+	Lode Runner Championship/1.jpg",
+	Lode Runner Championship/2.jpg";
+            
+Lone Ranger, "Konami", "MMC-3", "1991", Claster's Cartrige,
+	Lone Ranger/1.jpg",
+	Lone Ranger/2.jpg",
+	Lone Ranger/3.jpg",
+	1. General/3.jpg;
+                          
+Lunar Ball (Lunar Pool), "no name", unknown, "1987, Claster's Cartrige,
+	Lunar Ball/1.jpg,
+	Lunar Ball/2.jpg,
+	Lunar Ball/3.jpg,
+	Lunar Ball/4.jpg,
+	Lunar Ball/5.jpg,
+	1. General/3.jpg;
+                                                     
+Lion King, Virgin, unknown, 19**, Don't have one,
+	Lion King/1.jpg,
+	Lion King/2.jpg;
+
+Super Lion King, Pirate Stuff, unknown, 1993, 1 in 1,
+	Super Lion King/1.jpg,
+	Super Lion King/2.jpg,
+	Super Lion King/3.jpg;
+
+	// M
+			
+Magic Jewelry (Magic Block), "no name", unknown, "1993", 7 in 1,
+	Magic Jewelry/1.jpg,
+	Magic Jewelry/2.jpg,
+	Magic Jewelry/3.jpg,
+	Magic Jewelry/4.jpg;
+	                        
+Magical Doropie, "Tokai", "MMC-3", "1990", Claster's Cartrige,
+	Magical Doropie (Tre Krion Conquest)/1.jpg,
+	Magical Doropie (Tre Krion Conquest)/2.jpg,
+	Magical Doropie (Tre Krion Conquest)/3.png,
+	Magical Doropie (Tre Krion Conquest)/4.jpg,
+	1. General/3.jpg;    
+                  
+Maniac Mansion, "Jaleco", "MMC-1", "1990", "Claster's Cartrige",
+	Maniac Mansion/1.jpg",
+	Maniac Mansion/2.jpeg";      
+                 
+Mah-Jong, no name, unknown, 1987, Claster's Cartrige,
+	Mah-Jong/1.jpg,
+	Mah-Jong/2.jpg,
+	Mah-Jong/3.jpg,
+   	1. General/3.jpg;
+                      
+Mappy, "Namco", "NROM", "1983" , 64 in 1,
+	Mappy/1.jpg,
+	Mappy/2.jpg,
+        Mappy/3.jpg; 
+                               
+My Unknown Famicom RPG, "no name", "UNROM", "1986", 1 in 1,
+	My Unknown Famicom RPG/1.jpg,
+	My Unknown Famicom RPG/2.jpg;          
+     
+Macross, "no name", "unknown", "1985", "Multigames",
+	Macross/1.jpg,
+	Macross/2.jpg,
+	1. General/4.jpg",
+	1. General/9.jpg",
+	1. General/10.jpg";
+ 			
+Mario Bros, Nintendo, NROM, 1983, Multigames,
+	Mario Bross/1.jpg,
+	Mario Bross/2.jpg,
+	Mario Bross/3.jpg,
+	Mario Bross/4.jpg,
+	1. General/4.jpg,
+	1. General/9.jpg,
+	1. General/10.jpg;
+			
+Super Mario Bros, Nintendo, NROM, 1985, 1 in 1,
+	Super Mario Bross/1.jpg,
+	Super Mario Bross/2.jpg,
+	Super Mario Bross/3.jpg,
+	Super Mario Bross/4.jpg,
+	Super Mario Bross/5.jpg,
+	Super Mario Bross/6.jpg,
+	1. General/10.jpg;
+			
+Super Mario Bros 2, "Nintendo", "MMC-3", "1986", "4 in 1",
+	Super Mario Bross 2/1.jpg",
+	Super Mario Bross 2/2.jpg",
+	Super Mario Bross 2/3.jpg";
+			
+Super Mario Bros 2 (Japan), "Nintendo", "unknown", "1986", "Claster's Cartirge",
+	Super Mario Bross 2 Japan/1.jpg",
+	Super Mario Bross 2 Japan/2.jpeg",
+	Super Mario Bross 2 Japan/3.jpg",
+        Super Mario Bross 2 Japan/4.jpg";
+        
+Super Mario Bros 3, "Nintendo", "MMC-3", "1987, "1 in 1",
+	Super Mario Bross 3/1.jpg",
+	Super Mario Bross 3/2.jpg",
+	Super Mario Bross 3/3.jpg";  
+                
+Mario is Missing, "Nintendo", "unknown", "1993", Claster's Cartrige,
+	Mario is Missing/1.jpg,
+	Mario is Missing/2.jpg;
+                    
+Mario's Time Machine, "Nintendo", "unknown", "1994", Claster's Cartrige,
+	Mario's Time Machine/1.jpg,
+	Mario's Time Machine/2.jpg;
+                 
+Mario 6_14_16_17, "Pirate Stuff", "MMC-3", "1993" , 4 in 1,
+	Mario 6_14_16_17/1.jpg,
+	Mario 6_14_16_17/2.jpg,
+	Mario 6_14_16_17/3.jpg;   
+			
+Mega Man 1, "Capcom", "UNROM", "1988", "Claster's Cartrige",
+	Mega Man/1.jpg",
+	Mega Man/2.jpg";    
+			
+Mega Man 2, "Capcom", "MMC-1", "1990", "Claster's Cartrige",
+	Mega Man 2/1.jpg",
+	Mega Man 2/2.jpg";
+			
+Mega Man 3, "Capcom", "MMC-3", "1990", "Claster's Cartrige",
+	Mega Man 3/1.jpg",
+	Mega Man 3/2.jpg"; 
+			
+Mega Man 4, "Capcom", "MMC-3", "1991", "Claster's Cartrige",
+	Mega Man 4/1.jpg",
+	Mega Man 4/2.jpg";
+			
+Mega Man 5, "Capcom", "MMC-3", "1992", "Claster's Cartrige",
+	Mega Man 5/1.png",
+	Mega Man 5/2.jpg"; 
+			
+Mega Man 6, "Capcom", "MMC-3", "1993", "Claster's Cartrige",
+	Mega Man 6/1.jpg",
+	Mega Man 6/2.jpg",
+	Mega Man 6/3.jpg;  
+			
+Metal Gear, "Ultra", "UNROM", "1988", Claster's Cartrige,
+	Metal Gear/1.jpg",
+	Metal Gear/2.jpg";
+                        
+Metroid, "Nintendo", "MMC-1", "1987", Claster's Cartrige,
+	Metroid/1.jpg",
+	Metroid/2.jpg";
+                          
+Mickey's Adventure in Numberland, Hi Tech Expressions, unknown, 1991, 2 in 1,
+	Mickey's Adventure in Numberland/1.jpg,
+	Mickey's Adventure in Numberland/2.jpg,
+	Mickey's Adventure in Numberland/3.jpg;
+                         
+Mickey Mouse 3: Yume Fuusen, Kemco, unknown, "1993", Claster's Cartrige,
+	Mickey Mouse 3/1.jpg,
+	Mickey Mouse 3/2.jpg, 
+	Mickey Mouse 3/3.jpg; 
+       
+Mickey Mouse Mousecapade, Capcom, unknown, 1987, 1 in 1,
+	Mickey Mouse Mousecapade/1.jpg,
+	Mickey Mouse Mousecapade/2.jpg,
+	Mickey Mouse Mousecapade/3.jpg,
+	Mickey Mouse Mousecapade/4.jpg,
+	Mickey Mouse Mousecapade/5.jpg,
+	Mickey Mouse Mousecapade/6.jpg,
+	Mickey Mouse Mousecapade/7.jpg,
+	Mickey Mouse Mousecapade/8.jpg;	     
+        
+Mickey's Safari in Latterland, Hi Tech Expressions, unknown, "1992", Claster's Cartrige,
+	Mickey's Safari in Latterland/1.jpg,
+	Mickey's Safari in Latterland/2.jpg;
+			
+Mighty Final Fight, Capcom, MMC-3, 1993, 2 in 1,
+	Mighty Final Fight/1.jpg,
+	Mighty Final Fight/2.jpg,
+	Mighty Final Fight/3.jpg,
+	Mighty Final Fight/4.jpg,
+	Mighty Final Fight/5.jpg,
+	Mighty Final Fight/6.jpg,
+	Mighty Final Fight/7.jpg,
+	Mighty Final Fight/8.jpg,
+	Mighty Final Fight/9.jpg,
+	Mighty Final Fight/10.jpg;
+
+Micro Machines, Code Masters, UNROM, "1993", Claster's Cartrige, 
+	Micro Machines/1.jpg,
+	Micro Machines/2.jpg,
+	Micro Machines/3.jpg,
+	1. General/3.jpg;
+                      
+Mike Tyson's Punch-Out, "Nintendo", "MMC-2", "1987", Claster's Cartrige,
+	Mike Tyson's Punch-Out/1.jpg,
+	Mike Tyson's Punch-Out/2.jpg,
+	Mike Tyson's Punch-Out/3.jpg,
+	1. General/3.jpg;
+			
+Mission Impossible, "Ultra", "MMC-3", "1990", "Claster's Cartrige",
+	Mission Impossible/1.jpg",
+	Mission Impossible/2.jpg";
+			
+Monster in My Pocket, Konami, MMC-3, 1992, 2 in 1,
+	Monster In My Pocket/1.jpg,
+	Monster In My Pocket/2.jpg,
+	Monster In My Pocket/3.jpg,
+	Monster In My Pocket/4.jpg,
+	Monster In My Pocket/5.jpg,
+	Monster In My Pocket/6.jpg,
+	Monster In My Pocket/7.jpg,
+	Monster In My Pocket/8.jpg,
+	Monster In My Pocket/9.jpg;
+
+Moon Crystal, Hect, unknown, 1992, don't have one,
+	Moon Crystal/1.jpg,
+	Moon Crystal/2.jpg,
+	Moon Crystal/3.jpg,
+	Moon Crystal/4.jpg,
+	Moon Crystal/5.jpg;
+			
+M.U.S.C.L.E., "Bandai", "NROM", "1986", 64 in 1,
+	M.U.S.C.L.E/1.png,
+	M.U.S.C.L.E/2.png,
+	M.U.S.C.L.E/3.jpg,
+	M.U.S.C.L.E/4.jpg,
+	1. General/9.jpg;
+			
+Mitsume Ga Tooru, Natsume, MMC-3, 1992, 4 in 1,
+	Mitsusme Ga Tooru/1.jpg,
+	Mitsusme Ga Tooru/2.jpg,
+	Mitsusme Ga Tooru/3.jpg,
+	Mitsusme Ga Tooru/4.jpg,
+	Mitsusme Ga Tooru/5.jpg,
+	Mitsusme Ga Tooru/6.jpg,
+	Mitsusme Ga Tooru/7.jpg,
+	Mitsusme Ga Tooru/8.jpg;
+			
+Mortal Kombat, "no name", unknown, "1993", Claster's Cartrige,
+	Mortal Kombat/1.jpg,
+	Mortal Kombat/2.jpg,
+	Mortal Kombat/3.jpg,
+	Mortal Kombat/4.jpg,
+	Mortal Kombat/5.jpg,
+	Mortal Kombat/6.jpg,
+	Mortal Kombat/7.jpg,
+	Mortal Kombat/8.jpg,
+	Mortal Kombat/9.jpg,
+	Mortal Kombat/10.jpg,
+	Mortal Kombat/11.jpg,
+	Mortal Kombat/12.jpg,
+	Mortal Kombat/13.jpg,
+	Mortal Kombat/14.jpg,  
+	1. General/3.jpg;
+                
+Mr. Gimmick, "SunSoft", "unknown", "1992", Claster's Cartrige,
+	Gimmick/1.jpg,
+	Gimmick/2.jpg,
+	Gimmick/3.jpg, 
+        1. General/3.jpg;
+                 
+Ms. Pac-Man, Namco, unknown, "1982", Claster's Cartrige,
+	Ms. Pac-Man/1.jpg, 
+	Ms. Pac-Man/2.jpg,
+	Ms. Pac-Man/3.jpg,
+        1. General/3.jpg;
+                 
+Mystery World Dizzy, "Code Masters", "unknown", "1992", Claster's Cartrige,
+	Mystery World Dizzy/1.jpg,
+	Mystery World Dizzy/2.jpg;
+
+	// N
+			
+New Ghostbusters 2, "HAL Laboratory", "MMC-1", "1991", "2 in 1",
+	GhostBusters 2 New/1.png",
+	GhostBusters 2 New/2.png",
+	GhostBusters 2 New/3.jpg",
+        1. General/8.jpg;
+			
+Ninja Cats, "Tecmo", "MMC-3", "1992", "4 in 1",
+	Ninja Cats (Samurai Pizza Cats)/1.jpg",
+	Ninja Cats (Samurai Pizza Cats)/2.jpg",
+	Ninja Cats (Samurai Pizza Cats)/3.jpg";
+			
+Ninja Jajamaru Kun, Jaleco, unknown, 1985, 64 in 1,
+	Ninja Jajamaru Kun/1.jpg,
+	Ninja Jajamaru Kun/2.jpg,
+	Ninja Jajamaru Kun/3.jpg,
+	Ninja Jajamaru Kun/4.jpg,
+	Ninja Jajamaru Kun/5.jpg,
+	1. General/9.jpg;
+                  
+Ninja Kun - Majou no Bouka", Jaleco, unknown, 1987, 64 in 1,
+	Ninja Kun - Majou no Bouken/1.jpg,
+	Ninja Kun - Majou no Bouken/2.jpg,
+	Ninja Kun - Majou no Bouken/3.jpg,
+	Ninja Kun - Majou no Bouken/4.jpg,
+	Ninja Kun - Majou no Bouken/5.png,
+	1. General/9.jpg;
+           
+Ninja Gaiden", "Tecmo", "MMC-1", "1989", Claster's Cartrige,
+	Ninja Gaiden/1.jpg",
+	Ninja Gaiden/2.jpg"; 
+                        
+Ninja Gaiden 2", "Tecmo", "MMC-3", "1990", Claster's Cartrige,
+	Ninja Gaiden 2/1.jpg",
+	Ninja Gaiden 2/2.jpg",
+	Ninja Gaiden 2/3.jpg",
+        1. General/3.jpg; 
+			
+Ninja Gaiden 3 (Ninja Rykendnd 3), "Tecmo", "MMC-3", "1991", "1 in 1",
+	Ninja Gaiden 3/1.jpg,
+	Ninja Gaiden 3/2.jpg,
+	Ninja Gaiden 3/3.jpg,
+        1. General/11.jpg; 
+			
+Ninja Crusaders, "Sammy", "MMC-3", "1990", Claster's Cartrige,
+	Ninja Crusaders/1.jpg,
+	Ninja Crusaders/2.jpg,
+	Ninja Crusaders/3.jpg,
+	1. General/3.jpg;         
+           
+Nuts & Milk, Nintendo, NROM, 1985, Multigames,
+	Nuts & Milk/1.jpg,
+	Nuts & Milk/2.jpg,
+	Nuts & Milk/3.jpg,
+	Nuts & Milk/4.jpg,
+	Nuts & Milk/5.jpg,
+	Nuts & Milk/6.jpg,
+	Nuts & Milk/7.jpg,
+	Nuts & Milk/8.jpg,
+	1. General/9.jpg,
+	1. General/10.jpg;
+
+	// O
+			
+Operation Wolf, "Taito", "MMC-1", "1988", "4 in 1",
+	Operation Wolf/1.jpg",
+	Operation Wolf/2.jpg",
+	Operation Wolf/3.jpg";
+			
+Othello, "Acclaim", "NROM", "1988", 1 in 1,
+	Othello/1.jpg,
+	Othello/2.jpg,
+	Othello/3.jpg,
+	Othello/4.jpg,
+	Othello/5.jpg;
+
+	// P
+			
+Pac-Man, Namco, NROM, 1980, 64 in 1,
+	Pac-Man/1.jpg,
+	Pac-Man/2.jpg,
+	Pac-Man/3.jpg,
+	Pac-Man/4.jpg,
+	Pac-Man/5.jpg,
+	Pac-Man/6.jpg,
+	Pac-Man/7.jpg,
+	1. General/9.jpg;
+                              
+Pac-Mania, "Namco", "NROM", "1987", Claster's Cartrige,
+	Pac Mania/1.png,
+	Pac Mania/2.jpg,
+	Pac Mania/3.png,
+	1. General/3.jpg;
+			
+Psy Buster (Metal Mech), "Jaleco", "unknown", "1990", "2 in 1",
+	PsyBuster (Metal Mach or Metal Flame)/1.jpg",
+	PsyBuster (Metal Mach or Metal Flame)/2.jpg",
+	PsyBuster (Metal Mach or Metal Flame)/3.jpg";
+			
+Panic Restaurant (Cook House), Taito, MMC-3, 1992, 2 in 1,
+	Panic Restaurant/1.jpg,
+	Panic Restaurant/2.jpg,
+	Panic Restaurant/3.jpg,
+	Panic Restaurant/4.jpg,
+	Panic Restaurant/5.jpg,
+	Panic Restaurant/6.jpg,
+	Panic Restaurant/7.jpg; 
+			
+Pooyan, "Konami", "NROM", "1985", 64 in 1,
+	Pooyan/1.jpg,
+	Pooyan/2.jpg,
+	Pooyan/3.png,
+	Pooyan/4.jpg,
+	Pooyan/5.jpg,
+ 	1. General/9.jpg;
+                              
+PinBall, "Nintendo", "NROM", "1985", 64 in 1,
+	PinBall/1.jpg,
+	PinBall/2.jpg,
+	PinBall/3.jpg,
+	PinBall/4.jpg,
+	PinBall/5.jpg,
+ 	1. General/9.jpg;
+                             
+Popeye, "Nintendo", "NROM", "1985", Multigame,
+	Popeye/1.jpg,
+	Popeye/2.jpg,
+	Popeye/3.jpg,
+	Popeye/4.jpg,
+	Popeye/5.jpg,
+	Popeye/6.jpg,
+	1. General/10.jpg;
+			
+Power Blade 1", "Taito", "MMC-3", "1991", "Claster's Cartrige",
+	Power Blade 1/1.jpg",
+	Power Blade 1/2.jpg";
+			
+Power Blade 2, "Taito", "MMC-3", "1992", "2 in 1",
+	Power Blade 2/1.jpg,
+	Power Blade 2/2.jpg,
+	Power Blade 2/3.jpg,
+	Power Blade 2/4.jpg,
+	Power Blade 2/5.jpg,
+	Power Blade 2/6.jpg,
+	Power Blade 2/7.jpg,
+	Power Blade 2/8.jpg,
+	Power Blade 2/9.jpg;
+			
+Power Blazer, "Taito", "MMC-3", "1992", Claster's Cartrige,
+	Power Blazer/1.jpg,
+	Power Blazer/2.jpg,
+	Power Blazer/3.jpg,
+	Power Blazer/4.jpg,
+	1. General/3.jpg;
+                       
+Predator, "Activision", "MMC-1", "1987", Claster's Cartrige,
+	Preditor/1.jpg,
+	Preditor/2.jpg;
+			
+Probotector, "Konami", "UNROM", "1990", "Claster's Cartrige",
+	Probotector 1/1.jpg",
+	Probotector 1/2.jpg";
+			
+Probotector 2, "Konami", "MMC-3", "1992", "Claster's Cartrige",
+	Probotector 2/1.jpg",
+	Probotector 2/2.jpg";
+			
+Prince of Persia, Virgin, UNROM, 1989, 4 in 1,
+	Prince of Persia/1.jpg,
+	Prince of Persia/2.jpg,
+	Prince of Persia/3.jpg,
+	Prince of Persia/4.jpg,
+	Prince of Persia/5.jpg,
+	Prince of Persia/6.jpg,
+	Prince of Persia/7.jpg,
+	Prince of Persia/8.jpg;
+			
+The Punisher, Ljn, MMC-3, 1990, 2 in 1,
+	The Punisher/1.jpg,
+	The Punisher/2.jpg,
+	The Punisher/3.jpg,
+	The Punisher/4.jpg,
+	The Punisher/5.jpg,
+	The Punisher/6.jpg,
+	The Punisher/7.jpg,
+	The Punisher/8.jpg; 
+			
+Pockemon Blue Version (Wacky Race huck), Pirate Stuff, unknown, "1993", 1 in 1,
+	Pockemon Blue Version/1.jpg,
+	Pockemon Blue Version/2.jpg,
+	Pockemon Blue Version/3.jpg;
+
+	// R
+			
+Rainbow Island, "Taito", "UNROM", "1991", "8 in 1",
+	Rainbow Islands/1.jpg",
+	Rainbow Islands/2.jpg",
+	Rainbow Islands/3.jpg";
+			
+Rambo, "Acclaim", "UNROM", "1987", Claster's Cartrige,
+	Rambo/1.jpg,
+	Rambo/2.jpg,
+	Rambo/3.jpg,
+	1. General/3.jpg;
+                                
+Raf World, "SunSoft", "MMC-1", "1990", Claster's Cartrige,
+	Raf World/1.jpg,
+	Raf World/2.jpg,
+	Raf World/3.jpg,
+	Raf World/4.jpg,
+	Raf World/5.jpg,
+	1. General/3.jpg;	
+			
+Rugar, "Tecmo", "UNROM", "1987", "4 in 1",
+	Rugar/1.jpg,
+	Rugar/2.jpg,
+	Rugar/3.jpg,
+	Rugar/4.jpg;
+
+Rush'n Attack, "Konami", "UNROM", "1985", "2 in 1",
+	Rush'n Attack/1.jpg,
+	Rush'n Attack/2.jpg,
+	Rush'n Attack/3.jpg,
+	Rush'n Attack/4.jpg;
+			
+Robocop VS Terminator, Virgin, unknown, "1993", Claster's Cartrige,
+	RoboCop VS The Terminator/1.jpg,
+	RoboCop VS The Terminator/2.jpg,
+	RoboCop VS The Terminator/3.jpg,
+	1. General/3.jpg;
+              
+Robocop 1, "Data East", "MMC-3", "1988", Claster's Cartrige,
+	Robocop/1.jpg,
+	Robocop/2.jpg;
+                            
+Rocketeer", "Bandai", "MMC-1", "1991", Claster's Cartrige,
+	Rocketter/1.jpg,
+	Rocketter/2.jpg;
+                           
+Road Fighter, "Konami", "NROM", "1985", 64 in 1,
+	Road Fighter/1.jpg,
+	Road Fighter/2.jpg,
+	Road Fighter/3.png,
+	Road Fighter/4.jpg,
+	Road Fighter/5.jpg,
+	1. General/9.jpg;
+			
+Robocop 2, "Ocean", "MMC-1", "1990", Claster's Cartrige,
+	Robocop 2/1.jpg,
+	Robocop 2/2.jpg;
+			
+Robocop 3, Ocean, MMC-3, 1992, 2 in 1,
+	Robocop 3/1.jpg,
+	Robocop 3/2.jpg,
+	Robocop 3/3.jpg,
+	Robocop 3/4.jpg,
+	Robocop 3/5.jpg,
+	Robocop 3/6.jpg,
+	Robocop 3/7.jpg,
+	Robocop 3/8.jpg,
+	Robocop 3/9.jpg,
+	Robocop 3/10.jpg,
+	Robocop 3/11.jpg,
+	Robocop 3/12.jpg;
+			
+Rocking Cats, Atlus, MMC-3, 1991, 2 in 1,
+	Rockin' Kats/1.jpg,
+	Rockin' Kats/2.jpg,
+	Rockin' Kats/3.jpg,
+	Rockin' Kats/4.jpg,
+	Rockin' Kats/5.jpg,
+	Rockin' Kats/6.jpg,
+	Rockin' Kats/7.jpg;
+
+	// S
+			
+Side Pocket, "Data East", "NROM", "1986", 8 in 1,
+	Side Pocket/1.jpg,
+	Side Pocket/2.jpg,
+	Side Pocket/3.jpg;
+	                           
+Silver Surfer, "Arcadia", "MMC-3", "1990", Don't have one,
+	Silver Surfer/1.jpg,
+	Silver Surfer/2.jpg;
+			
+Son Son 2 (Saiyuuki World 2), "Jaleco", "UNROM", "1988", "7 in 1",
+	Saiyuuki World 2/1.jpg",
+	Saiyuuki World 2/2.jpg",
+	Saiyuuki World 2/3.jpg";
+			
+ShatterHand, "Jaleco", "MMC-3", "1991", "Claster's Cartrige",
+	Shatter Hand (Tokkyuu Shireia Solbrain)/1.jpg",
+	Shatter Hand (Tokkyuu Shireia Solbrain)/2.jpg"; 
+			
+The Simpsons VS Space Mutants, Acclaim, MMC-1, 1990, 1 in 1,
+	The Simpsons  - Bart vs The Space Mutants/1.jpg,
+	The Simpsons  - Bart vs The Space Mutants/2.jpg,
+	The Simpsons  - Bart vs The Space Mutants/3.jpg,
+	The Simpsons  - Bart vs The Space Mutants/4.jpg,
+	The Simpsons  - Bart vs The Space Mutants/5.jpg,
+	The Simpsons  - Bart vs The Space Mutants/6.jpg,
+	The Simpsons  - Bart vs The Space Mutants/7.jpg,
+	The Simpsons  - Bart vs The Space Mutants/8.jpg,
+	The Simpsons  - Bart vs The Space Mutants/9.jpg;
+			
+The Simpsons VS The World, "Acclaim", "MMC-3", "1991", Claster's Cartrige,
+	The Simpsons - Bart vs The World/1.jpg,
+	The Simpsons - Bart vs The World/2.jpg,
+	The Simpsons - Bart vs The World/3.jpg,
+	1. General/3.jpg;
+            
+The Simpsons Radioactive Man, "Acclaim", "MMC-3", "1992", Claster's Cartrige,
+	The Simpsons - Bartman Meets Radioactive Man/1.jpg,
+	The Simpsons - Bartman Meets Radioactive Man/2.jpg;
+           
+Solomon's Key, "Tecmo", "MMC-3", "1987", 7 in 1,
+	Solomon's Key/1.jpg,  
+	Solomon's Key/2.jpg,
+	Solomon's Key/3.jpg,
+	Solomon's Key/4.jpg;   
+                      
+Solbrain, "Natsume", "MMC-3", "1991", Claster's Cartrige,
+	Solbrain (Shatter Hand)/1.jpg,
+	Solbrain (Shatter Hand)/2.jpg;
+                               
+Somari, "no name", unknown, "1993", Claster's Cartrige,
+	Somari/1.jpg,
+	Somari/2.jpg, 
+	Somari/3.jpg, 
+	1. General/3.jpg;
+	                                 
+Sonic The Hedgehog, "no name", unknown, "1993", Claster's Cartrige,
+	Sonic/1.png; 
+                  
+Sky Destroyer, "Taito", "NROM", "1985", Multigames,
+	Sky Distroyer/1.jpg, 
+	Sky Distroyer/2.jpg,
+	Sky Distroyer/3.jpg,
+	Sky Distroyer/4.jpg,
+	Sky Distroyer/5.jpg,
+	1. General/9.jpg;
+                         
+Skate or Die, "Electronic Arts", "GNROM", "1987", Don't have one,
+	 Skate or Die/1.jpg,
+	 Skate or Die/2.jpg; 
+                       
+SeiCross, FCI, unknown, "1988", 7 in 1,
+	Seicross/1.jpg,
+	Seicross/2.jpg,
+	Seicross/3.jpg,
+	Seicross/4.jpg,
+	Seicross/5.jpg;
+			
+Snake Rattle'n'Roll, "Rare", "MMC-1", "1990", "7 in 1",
+	Snake Rattle n Roll/1.jpg",
+	Snake Rattle n Roll/2.jpg",
+	Snake Rattle n Roll/3.jpg"; 
+			
+Snow Brothers, "Capcom", "unknown", "1991", "4 in 1",
+	Snow Brothers/1.jpg",
+	Snow Brothers/2.jpg",
+	Snow Brothers/3.jpg";
+			
+Soccer, "Nintendo", "NROM", "1985", Multigames,
+	Soccer/1.jpg,
+	Soccer/2.jpg,
+	Soccer/3.jpg,
+	1. General/10.jpg;
+                               
+Spy Hunter, "SunSoft", "CNROM", "1983", Claster's Cartrige,
+	Spy Hunter/1.jpg,
+	Spy Hunter/2.jpg;
+			
+Super Spy Hunter, SunSoft, MMC-3, 1992, 2 in 1,
+	Super Spy Hunter/1.jpg,
+	Super Spy Hunter/2.jpg,
+	Super Spy Hunter/3.jpg,
+	Super Spy Hunter/4.jpg,
+	Super Spy Hunter/5.jpg,
+	Super Spy Hunter/6.jpg,
+	Super Spy Hunter/7.jpg;
+			
+Super Robin Hood, "Code Masters", "UNROM", "1991", Claster's Cartrige,
+	Super Robin Hood/1.jpg,
+	Super Robin Hood/2.png,
+	Super Robin Hood/3.jpg,
+	1. General/3.jpg;
+                      
+Sword Master, "Activision", "unknown", "1990", Claster's Cartrige,
+	Sword Master/1.jpg,
+	Sword Master/2.jpg,
+	Sword Master/3.jpg,
+	1. General/3.jpg;
+			
+Spy VS Spy, Kemco, NROM, 1984, 7 in 1,
+	Spy VS Spy/1.jpg,
+	Spy VS Spy/2.jpg,
+	Spy VS Spy/3.jpg,
+	Spy VS Spy/4.jpg,
+	Spy VS Spy/5.jpg,
+	Spy VS Spy/6.jpg,
+	Spy VS Spy/7.jpg; 
+			
+Street Fighter, Pirate Stuff, unknown, "1993", 4 in 1,
+	Street Fighter/1.jpg,
+	Street Fighter/2.jpeg,
+	Street Fighter/3.jpg;
+ 
+Star Solder, Hudson Soft, unknown, "1988", 64 in 1,
+	Star Soldier/1.jpg,
+	Star Soldier/2.jpg, 
+	Star Soldier/3.jpg, 
+	Star Soldier/4.jpg,
+	1. General/9.jpg;  
+                          
+Star Force, Tecmo, unknown, "1987", 64 in 1,
+	Star Force/1.jpg,
+	Star Force/2.jpg, 
+	Star Force/3.jpg, 
+	1. General/9.jpg;
+		
+Summer Carnival '92", "Naxat Soft", "MMC-3", "1992", "4 in 1",
+	Summer Carnival '92/1.png",
+	Summer Carnival '92/2.jpg",
+	Summer Carnival '92/3.jpg";
+
+	// T
+			
+Tale Spin, Capcom, MMC-1, 1991, 4 in 1,
+	Tale Spin/1.jpg,
+	Tale Spin/2.jpg,
+	Tale Spin/3.jpg,
+	Tale Spin/4.jpg,
+	Tale Spin/5.jpg,
+	Tale Spin/6.jpg,
+	Tale Spin/7.jpg,
+	Tale Spin/8.jpg,
+	Tale Spin/9.jpg;
+			
+Target Renegade, "Taito", "MMC-1", "1987", Don't have one,
+	Target Renegade/1.jpg, 
+	Target Renegade/2.jpg,
+	Target Renegade/3.jpg;
+			
+Terra Cresta, "Tokai", "UNROM", "1989", "4 in 1",
+	Terra Kresta/1.jpg",
+	Terra Kresta/2.jpg",
+	Terra Kresta/3.jpg";
+			
+Tank 1990, "Pirate Stuff", "NROM", "1985", 64 in 1,
+	Tank 1990/1.png,
+	Tank 1990/2.jpg,
+	Tank 1990/3.jpg,
+	1. General/9.jpg;
+			
+The Legend of Kage, "Taito", "unknown", "1987", "64 in 1",
+	The Legend of Kage/1.png",
+	The Legend of Kage/2.jpg",
+	The Legend of Kage/3.jpg";
+			
+TMNT, Ultra, MMC-1, 1989, 4 in 1,
+	Teenage Mutant Ninja Turtles/1.jpg,
+	Teenage Mutant Ninja Turtles/2.jpg,
+	Teenage Mutant Ninja Turtles/3.jpg,
+	Teenage Mutant Ninja Turtles/4.jpg,
+	Teenage Mutant Ninja Turtles/5.jpg,
+	Teenage Mutant Ninja Turtles/6.jpg,
+	Teenage Mutant Ninja Turtles/7.jpg,
+	Teenage Mutant Ninja Turtles/8.jpg,
+        1. General/7.jpg; 
+			
+TMNT 2, Ultra, MMC-3, 1990, 3 in 1,
+	Teenage Mutant Ninja Turtles 2/1.jpg,
+	Teenage Mutant Ninja Turtles 2/2.jpg,
+	Teenage Mutant Ninja Turtles 2/3.jpg,
+	Teenage Mutant Ninja Turtles 2/4.jpg,
+	Teenage Mutant Ninja Turtles 2/5.jpg,
+	Teenage Mutant Ninja Turtles 2/6.jpg,
+	Teenage Mutant Ninja Turtles 2/7.jpg,
+        1. General/7.jpg;
+			
+TMNT 3, Konami, MMC-3, 1992, 3 in 1,
+	Teenage Mutant Ninja Turtles III The Manhattan Project/1.jpg,
+	Teenage Mutant Ninja Turtles III The Manhattan Project/2.jpg,
+	Teenage Mutant Ninja Turtles III The Manhattan Project/3.jpg,
+	Teenage Mutant Ninja Turtles III The Manhattan Project/4.jpg,
+	Teenage Mutant Ninja Turtles III The Manhattan Project/5.jpg,
+	Teenage Mutant Ninja Turtles III The Manhattan Project/6.jpg,
+	Teenage Mutant Ninja Turtles III The Manhattan Project/7.jpg,
+	Teenage Mutant Ninja Turtles III The Manhattan Project/8.jpg,
+	Teenage Mutant Ninja Turtles III The Manhattan Project/9.jpg,
+	Teenage Mutant Ninja Turtles III The Manhattan Project/10.jpg,
+	Teenage Mutant Ninja Turtles III The Manhattan Project/11.jpg,
+	Teenage Mutant Ninja Turtles III The Manhattan Project/12.jpg,
+        1. General/7.jpg;
+			
+TMNT Fighting, "Konami", "MMC-3", "1993", "2 in 1",
+	Teenage Mutant Ninja Turtles Tournament Fighters/1.jpg",
+	Teenage Mutant Ninja Turtles Tournament Fighters/2.png",
+	Teenage Mutant Ninja Turtles Tournament Fighters/3.jpg",
+        1. General/7.jpg;
+			
+Tennis, "Nintendo", "NROM", "1985", 64 in 1,
+	Tennis/1.jpg,
+	Tennis/2.jpg,
+	1. General/9.jpg;
+			
+Tetris Steepler, Pirate Stuff, "CNROM", "1987", 1 in 1,
+	Tetris Steepler/1.jpg,
+	Tetris Steepler/2.jpg,
+	Tetris Steepler/3.jpg,
+	Tetris Steepler/4.jpg;
+                       
+Tetris Japan, BPS, unknown, "1987", 1 in 1,
+	Tetris Famicom/1.jpg,
+	Tetris Famicom/2.jpg,
+	Tetris Famicom/3.jpg,
+	Tetris Famicom/4.jpg,
+	Tetris Famicom/5.jpg;
+			
+Terminator", "Mindscape", "MMC-3", "1992", "Claster's Cartirge",
+	Terminator/1.jpg",
+	Terminator/2.jpg";
+			
+Terminator 2, Ljn, MMC-3, 1991, 2 in 1,
+	Terminator 2/1.jpg,
+	Terminator 2/2.jpg,
+	Terminator 2/3.jpg,
+	Terminator 2/4.jpg,
+	Terminator 2/5.jpg,
+	Terminator 2/6.jpg,
+	Terminator 2/7.jpg,
+	Terminator 2/8.jpg,
+	Terminator 2/9.jpg,
+	Terminator 2/10.jpg,
+	Terminator 2/11.jpg; 
+			
+Tetris Tangen", "Tengen", "CNROM", "1988", "1 in 1",
+	Tetris Tengen/1.jpg",
+	Tetris Tengen/2.jpg",
+	Tetris Tengen/3.jpg";
+			
+Tetris Nintendo", "Nintendo", "NROM", "1987", "Claster's Cartrige",
+	Tetris NES/1.jpg",
+	Tetris NES/2.jpg";
+			
+Tiny Toon Adventures 1, Konami, MMC-3, 1991, 4 in 1,
+	Tiny Toon Adventures/1.jpg,
+	Tiny Toon Adventures/2.jpg,
+	Tiny Toon Adventures/3.jpg,
+	Tiny Toon Adventures/4.jpg,
+	Tiny Toon Adventures/5.jpg,
+	Tiny Toon Adventures/6.jpg,
+	Tiny Toon Adventures/7.jpg,
+	Tiny Toon Adventures/8.jpg,
+	Tiny Toon Adventures/9.jpg;   
+			
+Tiny Toon Adventures 2, "Konami", "MMC-3", "1992", Claster's Cartrige,
+	Tiny Toon Adventures 2/1.jpg,
+	Tiny Toon Adventures 2/2.jpg,
+	Tiny Toon Adventures 2/3.jpg,
+	1. General/3.jpg;
+		
+Tiger-Heli, "Acclaim", "CNROM", "1987", Claster's Cartrige,
+	Tiger Heli/1.jpg,
+	Tiger Heli/2.jpg,
+	Tiger Heli/3.jpg,
+	Tiger Heli/4.jpg,
+	1. General/3.jpg;
+			
+Tom and Jerry, Hi Tech Expressions, MMC-3, 1991, 1 in 1,
+	Tom and Jerry/1.jpg,
+	Tom and Jerry/2.jpg,
+	Tom and Jerry/3.jpg,
+	Tom and Jerry/4.jpg,
+	Tom and Jerry/5.jpg,
+	Tom and Jerry/6.jpg,
+	Tom and Jerry/7.jpg,
+	Tom and Jerry/8.jpg;
+			
+Top Gun 1, "Konami", unknown, "1987", 2 in 1,
+	Top Gun/1.jpg,
+	Top Gun/2.jpg,
+	Top Gun/3.jpg,
+	Top Gun/4.jpg,
+	Top Gun/5.jpg;
+                                
+Top Gun 2, "Konami", "unknown", "1989", Claster's Cartrige,
+	Top Gun 2/1.jpg,
+	Top Gun 2/2.jpg,
+	Top Gun 2/3.jpg,
+	Top Gun 2/4.jpg,
+	1. General/3.jpg;
+                             
+Top Players' Tennis, Asmik, unknown, "1990", Claster's Cartrige,
+	Top Tennis/1.jpg,
+	Top Tennis/2.jpg, 
+	Top Tennis/3.jpg,
+	1. General/3.jpg; 
+                   
+Total Recall, "Acclaim", "unknown", "1990", Claster's Cartrige,
+	Total Recall/1.jpg,
+	Total Recall/2.jpg,
+	Total Recall/3.jpg,
+	1. General/3.jpg;
+			
+Toxic Crusader, "Bandai", "MMC-3", "1991", "4 in 1",
+	Toxic Crusaders/1.jpg",
+	Toxic Crusaders/2.jpg",
+	Toxic Crusaders/3.jpg";
+			
+Track and Field 1, "Konami", unknown, "1983, 24 in 1,
+	Track and Field/1.jpg,
+	Track and Field/2.jpg,
+	Track and Field/3.jpg,
+	Track and Field/4.jpg,
+	Track and Field/5.jpg,
+	Track and Field/6.jpg,
+	Track and Field/7.jpg;
+	                        
+Track and Field 2, "Konami", "unknown", "1988", Claster's Cartrige,
+	Track and Field 2/1.jpg,
+	Track and Field 2/2.jpg,
+	Track and Field 2/3.jpg,
+	1. General/3.jpg;
+                     
+Transformers, Takara, unknown, "1986", Claster's Cartrige,
+	Transformers/1.jpg,
+	Transformers/2.jpg,
+	Transformers/3.jpg,
+	Transformers/4.jpg,
+	1. General/3.jpg;
+                           
+Treasure Master, "ASC", "MMC-1", "1991", Claster's Cartrige,
+	Treasure Master/1.jpg,
+	Treasure Master/2.jpg,
+	Treasure Master/3.jpg,
+	1. General/3.jpg;
+			
+Twin Eagle, Romstar, UNROM, 1989, 4 in 1,
+	Twin Eagle/1.jpg,
+	Twin Eagle/2.jpg,
+	Twin Eagle/3.jpg,
+	Twin Eagle/4.jpg,
+	Twin Eagle/5.jpg,
+	Twin Eagle/6.jpg,
+	Twin Eagle/7.jpg;
+			
+Twin Bee", "Konami", "CNROM", "1985", "64 in 1",
+	Twin Bee/1.jpg",
+	Twin Bee/2.png",
+	Twin Bee/3.jpg";
+
+	// U
+					
+The Untouchables, "Ocean", "MMC-1", "1990", "2 in 1",
+	The Untouchables/1.jpg",
+	The Untouchables/2.jpg",
+	The Untouchables/3.jpg";   
+			
+The Ultimate Stuntman, "Code Masters", "UNROM", "1990", Claster's Cartirge,
+	Ultimate Stuntman/1.jpg,
+	Ultimate Stuntman/2.jpg,
+	Ultimate Stuntman/3.jpg,
+	Ultimate Stuntman/4.jpeg,
+	1. General/3.jpg;
+                
+U-Four-ia The Saga (Hebereke), "SunSoft", "MMC-3", "1991", "Claster's Cartrige",
+	U-Four-Ia (Hebereke)/1.jpg",
+	U-Four-Ia (Hebereke)/2.jpg";  
+
+	// W
+			
+Wacky Races, Atlus, MMC-3, 1992, 4 in 1,
+	Wracky Races/1.png,
+	Wracky Races/2.jpg,
+	Wracky Races/3.jpg,
+	Wracky Races/4.jpg,
+	Wracky Races/5.jpg,
+	Wracky Races/6.jpg,
+	Wracky Races/7.jpg,
+	Wracky Races/8.jpg;
+			
+Wanpaku Kokkun No Gourmet (Panic Restarant), "Taito", "MMC-3", "1992", 2 in 1,
+	Wanpaku Kokkun No Gourmet (Panic Restarant)/1.jpg,
+	Wanpaku Kokkun No Gourmet (Panic Restarant)/2.jpg,
+	Wanpaku Kokkun No Gourmet (Panic Restarant)/3.jpg,
+	Wanpaku Kokkun No Gourmet (Panic Restarant)/4.jpg,
+	Wanpaku Kokkun No Gourmet (Panic Restarant)/5.jpg;
+            
+World Alley Championship, "no name", unknown, "1991", Don't have one,
+	Nigel Mansell's World Championship Challenge/1.jpg,
+	Nigel Mansell's World Championship Challenge/2.jpg,
+	Nigel Mansell's World Championship Challenge/3.png; 
+              
+Wonderland Dizzy, "Code Masters", UNROM, "1987", Claster's Cartrige,
+	WonderlLand Dizzy/1.png,
+	WonderlLand Dizzy/2.jpg;
+			
+Werewolf, "Data East", "MMC-3", "1990", "2 in 1",
+	Werewolf/1.jpg",
+	Werewolf/2.jpg",
+	Werewolf/3.jpg";
+			
+Wild Gunman, "Nintendo", "NROM", "1985", "150 in 1",
+	Wild Gunman/1.jpg",
+	Wild Gunman/2.jpg",
+	Wild Gunman/3.jpg";
+
+	// X
+			
+X-Men, "Ljn", "MMC-3", "1989", "4 in 1",
+	X-Men/1.jpg",
+	X-Men/2.jpg",
+	X-Men/3.jpg";
+
+	// Y
+			
+Yo! Noid, Capcom, MMC-1, 1990, 4 in 1,
+	Yo! Noid/1.png,
+	Yo! Noid/2.jpg,
+	Yo! Noid/3.jpg,
+	Yo! Noid/4.jpg,
+	Yo! Noid/5.jpg,
+	Yo! Noid/6.jpg,
+	Yo! Noid/7.jpg,
+	Yo! Noid/8.jpg;
+			
+Yie Ar Kung-Fu", "Konami", "NROM", "1985", "Multigames",
+ 	Yie Ar Kung-Fu/1.jpg",
+	Yie Ar Kung-Fu/2.jpg",
+	Yie Ar Kung-Fu/3.jpg",
+ 	Yie Ar Kung-Fu/4.jpg",
+	Yie Ar Kung-Fu/5.jpg";
+			
+Yume Penguin Monogatari", "Konami", "MMC-3", "1991", "Claster's Cartrige",
+	Yume Penguin Monogatari/1.jpg",
+	Yume Penguin Monogatari/2.jpg;
+
+	// Z
+			
+Zanac, FCI, UNROM, 1987, 8 in 1,
+	Zanac/1.jpg,
+	Zanac/2.jpg,
+	Zanac/3.jpg,
+	Zanac/4.jpg,
+	Zanac/5.jpg,
+	Zanac/6.jpg;
+			
+Zelda 2", "Nintendo", "MMC-1", "1992", "Claster's Cartrige",
+	The Legend of Zelda 2 (The Legend of Link)/1.jpg",
+	The Legend of Zelda 2 (The Legend of Link)/2.jpg";  
+			
+Zen - Intergalactic Ninja", "Konami", "MMC-3", "1991", "3 in 1",
+	Zen Intergalactic Ninja/1.jpg",
+	Zen Intergalactic Ninja/2.jpg",
+	Zen Intergalactic Ninja/3.jpg;
