@@ -45,8 +45,9 @@ public class MyNewGameFilesFinder {
     /* заведем ArrahList <String> для записи туда всех найденых Путей к найденым файлам/папкам */
 	
 	private static ArrayList <String> findList = new ArrayList <String>();
+	private static ArrayList <String> photoList = new ArrayList <String>();
 	
-	/* 1. вспомогательный Метод, принимающий 3 строки и проверяющий содержит ли первая строка вторую или трерью.
+	/* 1.1 вспомогательный Метод, принимающий 3 строки и проверяющий содержит ли первая строка вторую или трерью.
 	 * Применяется в следующем Методе isContainList, т.е. данный метод не знает что сравнивать,
 	 * он сравнивает только то, что ему передали. То что сравнивать, будет определять следующий метод,
 	 * в котором и будет применяться данный метод */
@@ -64,7 +65,26 @@ public class MyNewGameFilesFinder {
 		
 	} // конец метода newisContainMethod()
 	
-	/* 2. следующий метод принимает Директорию (массив файлов) и две строки, которые ищет в названиях файлов/папок директории
+	/* 1.2 вспомогательный Метод, принимающий 2 строки и проверяющий содержит ли первая строка вторую,.
+	 * Применяется в следующем Методе isContainList, т.е. данный метод не знает что ставнивать,
+	 * он сравнивает только то, что ему передали. То что сравнивать, будет определять следующий метод,
+	 * в котором и будет применяться данный метод */
+	/* В дальнейшем эти два метода нужно превести к одному Имени (будут 2 перегруженных метода) */
+	
+	private static boolean isContainMethod (String a, String b) {
+		
+		boolean k = false;
+		
+		if (a.equals(b)) {  // ищем только Полное совпадение Имени
+			
+			k = true;
+		}
+				
+		return k;
+		
+	} // конец метода isContainMethod()
+	
+	/* 2.1 следующий метод принимает Директорию (массив файлов) и две строки, которые ищет в названиях файлов/папок директории
 	 * если находится совпадение, путь к этому файлу/папке записывается в Список (статический).
 	 * Т.е. Метод добавляет в Список адреса найденых файлов/папок из одной Директории, т.е. он не умеет углубляться,
 	 * в отличии от следующего Метода, в котором данный метод и будет применяться */
@@ -86,6 +106,44 @@ public class MyNewGameFilesFinder {
 				 *  записывается в Список */
 				
 				findList.add(kk); 
+				
+			} 
+			
+		} // конец нашего цикла for
+		
+	} // конец Метода newIsContainList()
+	
+	/* 2.2 Метод будет принимать 2 строки для нахождения их в Директориях, и формировать 2 списка:
+	 * Список адресов Папок с фотками и Список адресов Текстовых Файлов */
+	
+	private static void superNewIsContainList (File[] a, String b, String c) { // b - текст файл, с - папка фоток
+
+		/* перебираем имена файлов/папок переданной директории (массива типа File) и сравниваем с искомой строкой,
+		 * используя предидущий метод isContainMethod, если есть совпадение, пишем адрес этого файла/папки в список. */
+		
+		String kk;
+		
+		for (int i=0; i<a.length; i++) {
+					
+			if ( isContainMethod (a[i].getName(), b) ) {		
+				
+				kk = a[i].toString();
+				
+				/* адрес файла/папки, название которого совпадает с переданным словом,
+				 *  записывается в Список */
+				
+				findList.add(kk); 
+				
+			} 
+			
+			if ( isContainMethod (a[i].getName(), c) ) {		
+				
+				kk = a[i].toString();
+				
+				/* адрес файла/папки, название которого совпадает с переданным словом,
+				 *  записывается в Список */
+				
+				photoList.add(kk); 
 				
 			} 
 			
@@ -185,15 +243,19 @@ public class MyNewGameFilesFinder {
 			 * статических переменных */	
 		}
 		
+		/* если Текст Файл есть, а Фоток нет (т.е. ищем только папку с Фотками) */
+		
 		else if ( find_TextFile.exists() && !find_PhotoFolder.exists() ) {
 			
 			nesServiceClass.windowShow ("Текст Файл есть, Фоток нет");   // тестовое else if - работает
 			
-			/* здесь нужно организовать поиск Папки с Фотографиями на локальной машине и при нахождении этой папки, ее адрес нужн присвоить
-			 * статической перменной TryStuff.addres (и возможно прописть в скрытый текст. файл) */
+			/* здесь нужно организовать поиск Папки с Фотографиями на локальной машине и при нахождении этой папки, ее адрес нужно присвоить
+			 * статической перменной TryStuff.addres (и возможно прописть в скрытый текст. файл + прописать туда и адрес  Текст Файла) */
 			
 			k=3; // метка, что Фоток нет
 		}
+		
+		/* если папка с Фотками есть, а Текст Файла нет (т.е. ищем только Текст Файл) */
 		
 		else if ( find_PhotoFolder.exists() && !find_TextFile.exists() ) {
 			
@@ -213,8 +275,9 @@ public class MyNewGameFilesFinder {
 		int p = 0;
 		
 		/////////////// вот блок поиска на компе и записи двух адресов в текстовый файл нужно дорабатывать /////////////
-			
-		if (k==0) { // начало моего нового иф (т.е. если не нашли ни на рабочем, ни в файле)
+		
+		if (k==0 || k==3 || k==4) {
+		//if (k==0) { // начало моего нового иф (т.е. если не нашли ни на рабочем, ни в файле) // if (k==0 || k==3 || k==4) {
 				
 			//TryStuff.windowShowString("Щас вошли в блок поиска.");
 				
@@ -236,7 +299,20 @@ public class MyNewGameFilesFinder {
 			//System.out.println ("Let's check TryStuff.photo: " + TryStuff.photoFolderName.substring(0, TryStuff.photoFolderName.length()-1)); // GamesPhoto
 			//System.out.println ("Let's check TryStuff.textFileName: " + TryStuff.textFileName);
 			
-			newInDirectorySearching (roots, TryStuff.textFileName, TryStuff.photoFolderName.substring(0, TryStuff.photoFolderName.length()-1));
+			if (k==0) {
+				
+				newInDirectorySearching (roots, TryStuff.textFileName, TryStuff.photoFolderName.substring(0, TryStuff.photoFolderName.length()-1));
+			}
+			
+			else if (k==3) {
+				
+				MyGameFilesFinder.inDirectorySearching(roots, TryStuff.photoFolderName.substring(0, TryStuff.photoFolderName.length()-1));
+			}
+			
+			else if (k==4) {
+				
+				MyGameFilesFinder.inDirectorySearching(roots, TryStuff.textFileName);
+			}
 			
 			//TryStuff.windowShowString("До начало просеивания размер Списка - " + findList.size());
 			

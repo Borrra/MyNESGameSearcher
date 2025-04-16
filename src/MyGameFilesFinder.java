@@ -95,7 +95,7 @@ public class MyGameFilesFinder {
 	 * в следующем Методе, в которм из этого списка будут формироваться Статические переменные
 	 * адресов файлов */
 	
-	private static void inDirectorySearching (File[] arr, String bb) {
+	public static void inDirectorySearching (File[] arr, String bb) {
 		
 		j++; // при каждом вызове метода, j+1
 
