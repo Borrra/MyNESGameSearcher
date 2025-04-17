@@ -151,7 +151,36 @@ public class MyNewGameFilesFinder {
 		
 	} // конец Метода newIsContainList()
 	
-	/* 3. Метод получает директорию и имя файла/папки и осуществляет их поиск в этой директории
+	/* 2.3 следующий метод принимает Директорию (массив файлов) и Строку, которую ищет в названиях файлов/папок директории
+	 * если находится совпадение, путь к этому файлу/папке записывается в Список (статический).
+	 * Т.е. Метод добавляет в Список адреса найденых файлов/папок из одной Директории, т.е. он не умеет углубляться,
+	 * в отличии от следующего Метода, в котором данный метод и будет применяться */
+	
+	private static void isContainList (File[] a, String b) {
+
+		/* перебираем имена файлов/папок переданной директории (массива типа File) и сравниваем с искомой строкой,
+		 * используя предидущий метод isContainMethod, если есть совпадение, пишем адрес этого файла/папки в список. */
+		
+		String kk;
+		
+		for (int i=0; i<a.length; i++) {
+					
+			if ( isContainMethod (a[i].getName(), b) ) {		
+				
+				kk = a[i].toString();
+				
+				/* адрес файла/папки, название которого совпадает с переданным словом,
+				 *  записывается в Список */
+				
+				findList.add(kk); 
+				
+			} 
+			
+		} // конец нашего цикла for
+		
+	} // конец Метода 2.3 isContainList()
+	
+	/* 3.1 Метод получает директорию и имя файла/папки и осуществляет их поиск в этой директории
 	 * с заданной глубиной вложения, т.е. использует Рекурсию и формирует Список со всеми
 	 * адресами найденых совпадеий. Просто формирует Список, а уже сам список будет применяться
 	 * в следующем Методе, в которм из этого списка будут формироваться Статические переменные
@@ -177,7 +206,7 @@ public class MyNewGameFilesFinder {
 				/* пробегаемся по всем элементам директории (и папкам и файлам), если есть совпадение
 				 * записяваем этот путь в лист и углубляемся дальше*/
 				
-				newIsContainList(arra, bb, cc);									
+				newIsContainList(arra, bb, cc); // вот тут можно пременить superNewIsContainList							
 			}
 			
 			/* отсеиаем только Папки чтобы перейти на уровень глубже */
@@ -200,6 +229,110 @@ public class MyNewGameFilesFinder {
 		} // конец цикла for
 		
 	} // конец 3-го метода newInDirectorySearching
+	
+	/* 3.2 Метод получает директорию и имя файла/папки и осуществляет их поиск в этой директории
+	 * с заданной глубиной вложения, т.е. использует Рекурсию и формирует Список со всеми
+	 * адресами найденых совпадеий. Просто формирует Список, а уже сам список будет применяться
+	 * в следующем Методе, в которм из этого списка будут формироваться Статические переменные
+	 * адресов файлов */
+	
+	private static void superNewInDirectorySearching (File[] arr, String bb, String cc) {
+		
+		j++; // при каждом вызове метода, j+1
+
+		/* передаваемый Массив файлов помещаем в цикл, где к каждому элементу применяем
+		 * метод listFiles(), т.е. раскладываем каждую Папку на ее содержимое и уже содержимое
+		 * проверяем на соответствие искомому слову */
+		
+		for (int i=0; i<arr.length; i++) {
+	
+			/* в итоге мы имеем новый массив файлов (за каждую итерацию), содержащийся в
+			 * каждой папке передаваемого Массива */
+				
+			File[] arra = arr[i].listFiles(); // массив всех элементов содержащихся в каждой папке
+		
+			if (arra != null) { // если это не файл и если это папка с открытим доступом
+				
+				/* пробегаемся по всем элементам директории (и папкам и файлам), если есть совпадение
+				 * записяваем этот путь в лист и углубляемся дальше*/
+				
+				superNewIsContainList(arra, bb, cc); // 							
+			}
+			
+			/* отсеиаем только Папки чтобы перейти на уровень глубже */
+			
+			File[] arra1 = arr[i].listFiles(File::isDirectory); // массив только Директорий, это для углубления
+	
+			/* если к папке имеется доступ, то мы применяем РЕКУРСИЮ, т.е. передаем эту директорию в наш метод
+			 * аргументом и также ищем там нашу строку, как-бы погружаемся на уровень грубже */
+			
+			if (arra1 != null) { // если к папке имеется доступ
+	
+				if (j<h-1) { // условие для регулировки определенной глубины вложения
+					
+					superNewInDirectorySearching (arra1, bb, cc); // Рекурсивный вызов нашего Метода (самого себя)
+					
+					j--; // регулятор глубины вложния - надо разгадать тайну этого выражения) почему это работает?
+				} 				
+			}
+		
+		} // конец цикла for
+		
+	} // конец 3.2-го метода superNewInDirectorySearching
+	
+	/* 3.3 Метод получает директорию и имя файла/папки и осуществляет их поиск в этой директории
+	 * с заданной глубиной вложения, т.е. использует Рекурсию и формирует Список со всеми
+	 * адресами найденых совпадеий. Просто формирует Список, а уже сам список будет применяться
+	 * в следующем Методе, в которм из этого списка будут формироваться Статические переменные
+	 * адресов файлов */
+	
+	public static void inDirectorySearching (File[] arr, String bb) {
+		
+		j++; // при каждом вызове метода, j+1
+
+		/* передаваемый Массив файлов помещаем в цикл, где к каждому элементу применяем
+		 * метод listFiles(), т.е. раскладываем каждую Папку на ее содержимое и уже содержимое
+		 * проверяем на соответствие искомому слову */
+		
+		for (int i=0; i<arr.length; i++) {
+	
+			/* в итоге мы имеем новый массив файлов (за каждую итерацию), содержащийся в
+			 * каждой папке передаваемого Массива */
+	
+			
+			File[] arra = arr[i].listFiles(); // массив всех элементов содержащихся в каждой папке
+			
+			
+			
+			if (arra != null) { // если это не файл и если это папка с открытим доступом
+				
+				/* пробегаемся по всем элементам директории (и папкам и файлам), если есть совпадение
+				 * записяваем этот путь в лист и углубляемся дальше*/
+				
+				isContainList(arra, bb);
+										
+			}
+			
+			/* отсеиаем только Папки чтобы перейти на уровень глубже */
+			
+			File[] arra1 = arr[i].listFiles(File::isDirectory); // массив только Директорий, это для углубления
+	
+			/* если к папке имеется доступ, то мы применяем Рекурсию, т.е. передаем эту директорию в наш метод
+			 * аргументом и также ищем там нашу строку, как-бы погружаемся на уровень грубже*/
+			
+			if (arra1 != null) { // если к папке имеется доступ
+	
+				if (j<h-1) { // условие для регулировки определенной глубины вложения
+					
+					inDirectorySearching (arra1, bb); // Рекурсивный вызов нашего Метода (самого себя)
+					
+					j--; // регулятор глубины вложния - надо разгадать тайну этого выражения) почему это работает?
+				} 				
+			}
+		
+		} // конец цикла for
+		
+	} // конец 3.3-го метода inDirectorySearching
 	
 	/* 4. Метод, который формирует адреса моих двух файлов, нахорящихся в разный местах
 	 * а не в папке Проекта. Применяется в main */
@@ -299,20 +432,33 @@ public class MyNewGameFilesFinder {
 			//System.out.println ("Let's check TryStuff.photo: " + TryStuff.photoFolderName.substring(0, TryStuff.photoFolderName.length()-1)); // GamesPhoto
 			//System.out.println ("Let's check TryStuff.textFileName: " + TryStuff.textFileName);
 			
+			/* в первом if будет формироваться 2 списка с адресами: findList and photoList */
+			
 			if (k==0) {
 				
+				//superNewInDirectorySearching (roots, TryStuff.textFileName, TryStuff.photoFolderName.substring(0, TryStuff.photoFolderName.length()-1));
 				newInDirectorySearching (roots, TryStuff.textFileName, TryStuff.photoFolderName.substring(0, TryStuff.photoFolderName.length()-1));
 			}
 			
+			/* в этом else if будет формироаться список адресов Папки с Фотками photoList */
+			
 			else if (k==3) {
 				
-				MyGameFilesFinder.inDirectorySearching(roots, TryStuff.photoFolderName.substring(0, TryStuff.photoFolderName.length()-1));
+				/* надо чтобы этот метод формировал photoList */
+				
+				inDirectorySearching(roots, TryStuff.photoFolderName.substring(0, TryStuff.photoFolderName.length()-1));
 			}
+			
+			/* в этом else if будет формироваться список адресов Текстового файла findList */
 			
 			else if (k==4) {
 				
-				MyGameFilesFinder.inDirectorySearching(roots, TryStuff.textFileName);
+				/* надо чтобы этот метод формировал findList */
+				
+				inDirectorySearching(roots, TryStuff.textFileName);
 			}
+			
+		//////////////////// это конец блока формирования Списков с найденными Адресами ///////////////////////////
 			
 			//TryStuff.windowShowString("До начало просеивания размер Списка - " + findList.size());
 			
@@ -555,7 +701,447 @@ public class MyNewGameFilesFinder {
 						
 		} // конец основного if (k==0)
 	
-	} // конец Метода 4. MyNewGameFilesAddress
+	} // конец Метода 4.1 MyNewGameFilesAddress
+	
+	/* 4.2 Метод по определению адреса Текст Файла из Списка всех найденных
+	 * Если Список пуст, вернется строка "" */
+	
+	public static String createFinalTextAddres (ArrayList <String> MyList) {
+		
+		String adres = "";
+		
+		if ( MyList.size() !=0 ) {
+			
+			/* цикл отсеивания из Списка адресов, ссылающихся на Ресайкл Бины */
+			
+			String[] myTempArray = MyList.toArray(new String[0]); // переводим Список в Массив, а Список очищаем
+			
+			MyList.clear(); // очистка Списка
+			
+			for (int i=0; i<myTempArray.length; i++) {
+				
+				if ( myTempArray[i].contains("$Recycle.Bin") || myTempArray[i].contains("$RECYCLE.BIN") ) {
+					
+					//TryStuff.windowShowString("Этот адрес не пишем - " + myTempArray[i]);
+					
+				} else {
+					
+					//TryStuff.windowShowString("Этот адрес оставляем - " + myTempArray[i]);
+					MyList.add(myTempArray[i]);
+				}
+				
+			}
+		
+			/* после этого блока в адресе Папки с фотками еще нет черты "\\" */
+			
+			//TryStuff.windowShowString("После просеивания размер Списка - " + findList.size());
+			
+			/* формируем Массив из строк с адресами найденных файлов/папок */
+			
+			String[] myArray = MyList.toArray(new String[0]);
+			
+			/* заводим два списка, в которые далее в цикле будем записывать адреса найденых текстовых файлов
+			 * и адреса папок с фотками (если их на компе будет найдено несколько) чтобы в дальнейшем выбирать
+			 * из них наиболее свежие по дате */
+			
+			List <String> adrFl = new ArrayList <String> (); // под текст файлы
+			
+			/* далее следует цикл проверки всех найденных адресов на существование файлов на которые они указывают */
+			
+			for (int i=0; i<myArray.length; i++) {
+			
+				/* формируем объекты класса File по адресам, совпадений записанных в наш Список (т.е. Адреса:
+				 * папки и в ней текстового файла и папки с фотками) и если все три данных объекта существуют,
+				 * то присваиваем эти адреса нашим статическим переменным fileAddres и addres */
+
+				File findTextFile = new File (myArray[i]);
+				//File findPhotoFolder = new File (myArray[i]); // адрес еще без черты "\\"
+			
+				/* формируем адрес текстового файла */
+				
+				if (   findTextFile.exists()  &&  myArray[i].contains(TryStuff.textFileName)  ) {
+				
+					adrFl.add(myArray[i]); // собираем адреса всех найденых файлов Проекта
+				
+				}
+			
+			} // конец нового цикла for
+			
+			/* блок присваивания переменной TryStuff.fileAddres значения из списка adrFl с адресом наиболее
+			 * свежего по дате изменения файла */
+			
+			try {
+				
+				String newestFilePath = findNewestFile(adrFl);
+				
+				if (newestFilePath != null) {
+					
+					//System.out.println("The most recently modified file is: " + newestFilePath);
+					
+					/*вот здесь и присваиваем нашей переменной значиние адреса с самым новым файлом */
+					
+					adres = newestFilePath; // то что возвращает метод
+					
+				} else {
+					System.out.println("No valid files found.");
+				}
+				
+			} catch (IOException e) {
+				
+				e.printStackTrace();
+			}
+			
+			return adres;
+			
+		} else {
+			
+			return adres;
+		}
+	
+	} // конец Метода 4.2
+	
+	/* 4.2 Метод по определению адреса Папки с Фотками из Списка всех найденных
+	 * Если Список пустой, метод вернет строку "" */
+	
+	public static String createFinalPhotoAddres (ArrayList <String> MyList) {
+		
+		String adres = "";
+		
+		if (MyList.size() !=0 ) {
+			
+			/* цикл отсеивания из Списка адресов, ссылающихся на Ресайкл Бины */
+			
+			String[] myTempArray = MyList.toArray(new String[0]); // переводим Список в Массив, а Список очищаем
+			
+			MyList.clear(); // очистка Списка
+			
+			for (int i=0; i<myTempArray.length; i++) {
+				
+				if ( myTempArray[i].contains("$Recycle.Bin") || myTempArray[i].contains("$RECYCLE.BIN") ) {
+					
+					//TryStuff.windowShowString("Этот адрес не пишем - " + myTempArray[i]);
+					
+				} else {
+					
+					//TryStuff.windowShowString("Этот адрес оставляем - " + myTempArray[i]);
+					MyList.add(myTempArray[i]);
+				}
+				
+			}
+		
+			/* после этого блока в адресе Папки с фотками еще нет черты "\\" */
+			
+			//TryStuff.windowShowString("После просеивания размер Списка - " + findList.size());
+			
+			/* формируем Массив из строк с адресами найденных файлов/папок */
+			
+			String[] myArray = MyList.toArray(new String[0]);
+			
+			/* заводим два списка, в которые далее в цикле будем записывать адреса найденых текстовых файлов
+			 * и адреса папок с фотками (если их на компе будет найдено несколько) чтобы в дальнейшем выбирать
+			 * из них наиболее свежие по дате */
+			
+			List <String> adrPh = new ArrayList <String> (); // под папки фоток
+			
+			/* далее следует цикл проверки всех найденных адресов на существование файлов на которые они указывают */
+			
+			for (int i=0; i<myArray.length; i++) {
+			
+				/* формируем объекты класса File по адресам, совпадений записанных в наш Список (т.е. Адреса:
+				 * папки и в ней текстового файла и папки с фотками) и если все три данных объекта существуют,
+				 * то присваиваем эти адреса нашим статическим переменным fileAddres и addres */
+
+				File findPhotoFolder = new File (myArray[i]); // адрес еще без черты "\\"
+				
+				/* формируем адрес Папки с фотографиями */
+				
+				if (  findPhotoFolder.exists()  &&  myArray[i].contains(TryStuff.photoFolderName.substring(0, TryStuff.photoFolderName.length()-1))  ) {
+
+					adrPh.add(myArray[i]); // собирае адреса всех папок с фотками проекта
+						
+				}
+			
+			} // конец нового цикла for
+			
+			/* блок присваивания переменной TryStuff.addres значения из списка adrFl с адресом наиболее
+			 * свежего по дате изменения файла */
+			
+			try {
+				
+				String newestFolderPath = findNewestFolder(adrPh);
+				
+				if (newestFolderPath != null) {
+					
+					//System.out.println("The most recently modified file is: " + newestFilePath);
+					
+					/*вот здесь и присваиваем нашей переменной значиние адреса с самой новой папкой */
+					
+					adres = newestFolderPath + "\\"; // то что возвращает метод
+					
+				} else {
+					System.out.println("No valid folders found.");
+				}
+				
+			} catch (IOException e) {
+				
+				e.printStackTrace();
+			}
+			
+			return adres;
+			
+		} else {
+			
+			return adres;
+		}
+	
+	} // конец Метода 4.3
+	
+	public static void writingFilesToHiddingFile () {
+		
+		///////////////////// блок записи найденных адресов в текстовый файл на рабочем столе ///////////////////
+		
+		/*проверим наличие на рабочем столе текстового файла и при отсутствии заведм его 
+		 *Создаем объект класса File со следующим Конструктором */
+	
+		/* метод cerateNewFile() может выбрасывать Исключения, соответственно его нельзя употреблять без конструкции
+		 * try-catch */
+		
+		File deskTop = new File (TryStuff.desktopPath);    // директория - рабочий стол
+	
+		//File myTextFile =  new File (deskTop, v); //  текстовый файл с адресами на рабочем столе
+	
+		try {
+			
+			// если такой папки нет, создаем ее, хотя рабочий стол должен быть всегда
+			
+			if (!deskTop.exists()) {
+				
+				deskTop.mkdirs();								
+			}
+			
+			/* В нашей Директории (на рабочем столе) создадим наш текстовый скрытый файл, а если он уже есть
+			 * то перезапишем его */
+				
+			String x1 = TryStuff.desktopPath + File.separator + v; // путь к файлу
+				
+			Path hiddenFile = Paths.get(x1);
+				
+			/* создаем скрытый текстовый файл, если его еще нет на Рабочем Столе */
+				
+			if (Files.notExists(hiddenFile)) { 
+					
+				Files.createFile((hiddenFile)); // создаем файл
+				Files.setAttribute(hiddenFile, "dos:hidden", true); // устанавливаем его свойства
+					
+				//TryStuff.windowShowString("Hidden file was created.");
+					
+				try (BufferedWriter writer = new BufferedWriter (new FileWriter(x1, true))) {
+						
+					writer.write (TryStuff.fileAddres);
+					writer.newLine();
+					writer.write (TryStuff.addres+"\n");
+						
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+					
+				/* если наш скрытый файл уже существует, то перезаписываем туда наши адреса */
+					
+			} else {
+					
+				Files.setAttribute(hiddenFile, "dos:hidden", false); // делаем его НЕскрытым, пишем в него и Скрываем
+					
+				try (BufferedWriter writer = new BufferedWriter (new FileWriter (x1))) {
+					
+					writer.write (TryStuff.fileAddres);
+					writer.newLine();
+					writer.write (TryStuff.addres+"\n");
+					
+					Files.setAttribute(hiddenFile, "dos:hidden", true); // делаем файл Скрытым
+					
+				} catch (IOException e) {
+						
+					e.printStackTrace();
+				}
+					
+				nesServiceClass.windowShow ("Наш скрытый текст файл перезаписан.");
+			}
+		
+		} catch (IOException e) {
+			
+			System.err.println ("Error creating: " + e.getMessage());
+		}
+	}
+	
+	/* 4.4 Супер копия моего 4.1 Метода - Экспериментальная. Формирует адреса моих двух файлов, нахорящихся
+	 * в разный местах а не в папке Проекта. Хоче применить его в main */
+	
+	public static void MySuperGameFilesAddress () {  
+		
+		/* создадим Объекты класса File с нужными нам адресами, а затем проверим их на существование, если все существуют
+		 * значит присвоим эти адреса нашим статическим переменным fileAddres и addres, если нет то будем искать есть ли
+		 * скрытый текстовый файл на рабочем столе (с адресами наших 2-х файлов)  - метод № 5 checkingTheAddresTextFile()
+		 * и если его нет (или есть, но по этим адресам не те файлы или их нет) ищем файлы уже на всем компьютере,
+		 * используя Предидущий метод № 3 inDirectorySearching() */
+
+		File find_TextFile = new File (TryStuff.desktopPath + File.separator + TryStuff.projectFolderName + File.separator + TryStuff.textFileName); // текст файл
+		File find_PhotoFolder = new File (TryStuff.desktopPath + File.separator + TryStuff.projectFolderName + File.separator +
+				TryStuff.photoFolderName.substring(0, TryStuff.photoFolderName.length()-1));  // фото-папка
+	
+		/* папка будет считаться существующей в 2-х случаях: если существуют текстовый файл и файл с фотками */
+		
+		/*В первом случае k=1, это когда файлы нашлись на Рабочем столе
+		 * во втором случае k=2, это когда адреса файлов нашлись по адресам из скрытого текстового файла на рабочем столе
+		 * это происходит в методе 5.checkingNewTheAddresTextFile(),
+		 * в трерьем случае k=0, когда не нашлось ни на рабочем ни по адресам в файле и тогда начинается поиск на компьютере.
+		 * Сейчас (15.04.25) я добавил еще 2 случая, когда на Рабочем нашелся только Текст Файл (k=3) и когда на Рабочем нашлись
+		 * только Фотки (k=4) действий пока никаких */
+
+		/*ВОТ ЗДЕСЬ НУЖНО БУДЕТ ВНЕСТИ ИЗМЕНЕНИЯ: у меня последующее if идет по выполнению сразу двух условий, а надо сделать по отдельности.
+		 если например заменить && на || и уже в этом модуле сделать отдельные if для каждого случая.. и в каждом случае будет свое k и далее
+		 в зависомости от значения k будут выполнения соответствующие меры.
+		 Если нашли только текстовый файл, значит надо искать папку с фотками - сначало по ссылке в скрытом текст файле а потом уже и на
+		 Git Hub, но если не нашли фотки, прога все равно может запуститься. Если нашли только фотки, то надо искать Текст Файл */
+		
+		if ( find_TextFile.exists()  && find_PhotoFolder.exists()     ) {
+		
+			TryStuff.fileAddres = TryStuff.desktopPath + File.separator + TryStuff.projectFolderName + File.separator + TryStuff.textFileName;
+		
+			TryStuff.addres = TryStuff.desktopPath + File.separator + TryStuff.projectFolderName + File.separator + TryStuff.photoFolderName;
+			
+			k=1; // метка, что и Фотки и Текст Файл есть
+		
+			/* если файл существует на рабочем столе, то все норм и мы ничего не делаем, адреса прописаны в TryStuff в 
+			 * статических переменных */	
+		}
+		
+		/* если Текст Файл есть, а Фоток нет (т.е. ищем только папку с Фотками) */
+		
+		else if ( find_TextFile.exists() && !find_PhotoFolder.exists() ) {
+			
+			checkingNewTheAddresTextFile();
+			
+			if (k==0) {
+				
+				nesServiceClass.windowShow ("Текст Файл есть, Фоток нет");   // тестовое else if - работает
+				
+				/* здесь нужно организовать поиск Папки с Фотографиями на локальной машине и при нахождении этой папки, ее адрес нужно присвоить
+				 * статической перменной TryStuff.addres (и возможно прописть в скрытый текст. файл + прописать туда и адрес  Текст Файла) */
+				
+				k=3; // метка, что Фоток нет
+			}
+			
+		}
+		
+		/* если папка с Фотками есть, а Текст Файла нет (т.е. ищем только Текст Файл) */
+		
+		else if ( find_PhotoFolder.exists() && !find_TextFile.exists() ) {
+			
+			checkingNewTheAddresTextFile();
+			
+			if (k==0) {
+				
+				nesServiceClass.windowShow("Фотки есть, а Текст Файла нет"); // тестовое else if - работает
+				
+				/* здесь нужно организовать поиск Текстового Файла на локальной машине и при его нахождении, присваиваем его адрес
+				 * статической переменной TryStuff.fileAddres (и возможно прописать в скрытый текст. файл) */
+				
+				k=4; // метка, что Текст Файла нет
+			}
+			
+		}
+		
+		//else { checkingNewTheAddresTextFile(); } // если не нашли на рабочем, чекаем скрытый текстовый файл на рабочем
+		
+		/////////////// вот блок поиска на компе и записи двух адресов в текстовый файл нужно дорабатывать /////////////
+		
+		if (k==0 || k==3 || k==4) {
+		//if (k==0) { // начало моего нового иф (т.е. если не нашли ни на рабочем, ни в файле) // if (k==0 || k==3 || k==4) {
+				
+			//TryStuff.windowShowString("Щас вошли в блок поиска.");
+				
+			////////////////////////// Блок открытия Окна длительности процесса в отдельном Потоке ////////////////////
+
+			SwingUtilities.invokeLater(() -> {
+        	
+				myWindow.procesWindow ("Внимание! Идет поиск...");
+			});
+			
+			/////////////////////////////////////////////////////////////////////////////////////////////////////////       
+					
+			File[] roots = File.listRoots(); // составляем список жестких дисков
+			
+			/* в первом if будет формироваться 2 списка с адресами: findList and photoList */
+			
+			if (k==0) {
+				
+				//superNewInDirectorySearching (roots, TryStuff.textFileName, TryStuff.photoFolderName.substring(0, TryStuff.photoFolderName.length()-1));
+				newInDirectorySearching (roots, TryStuff.textFileName, TryStuff.photoFolderName.substring(0, TryStuff.photoFolderName.length()-1));
+				
+				TryStuff.fileAddres  =  createFinalTextAddres (findList);
+				
+				TryStuff.addres =  createFinalPhotoAddres (photoList);
+			
+			}
+			
+			/* в этом else if будет формироаться список адресов Папки с Фотками photoList */
+			
+			else if (k==3) {
+				
+				/* надо чтобы этот метод формировал photoList */
+				
+				inDirectorySearching(roots, TryStuff.photoFolderName.substring(0, TryStuff.photoFolderName.length()-1));
+				
+				TryStuff.addres =  createFinalPhotoAddres (photoList);
+
+			}
+			
+			/* в этом else if будет формироваться список адресов Текстового файла findList */
+			
+			else if (k==4) {
+				
+				/* надо чтобы этот метод формировал findList */
+				
+				inDirectorySearching(roots, TryStuff.textFileName);
+				
+				TryStuff.fileAddres  =  createFinalTextAddres (findList);
+			}
+			
+		
+			/////////////////// Блок закрытия окна длительности процесса после того как поиск закончился ////////////////////
+
+			SwingUtilities.invokeLater(() -> {
+          
+				for (Frame frame : Frame.getFrames()) {
+
+        			frame.dispose();
+				}
+
+			});
+			
+			
+		///////////////////////////////////////////////////////////////////////////////////////////////////////
+			
+			nesServiceClass.windowShow ("Блок формирования переменных окончен");
+			nesServiceClass.windowShow ("TryStuff.fileAddres - " + TryStuff.fileAddres);
+			nesServiceClass.windowShow ("TryStuff.addres - " + TryStuff.addres);
+			
+			///////////////////// блок записи найденных адресов в текстовый файл на рабочем столе ///////////////////
+				
+			if (!TryStuff.fileAddres.equals("")) { // если адрес Текст Файла есть
+				
+				writingFilesToHiddingFile (); // пишем адреса в скрытый файл
+				
+			} else {
+				
+				nesServiceClass.windowShow ("На этом компе ничего нет, извините.");
+
+				MyGameSearcher.choice = 1; // для того чтобы основной цикл не начинался если папка с документами не нашлась
+			}
+		
+		} // конец основного if (k==0, 3 or 4)
+	
+	} // конец Метода 4.4 MyNewGameFilesAddress
 	
 	/* 5. Метод, который будет проверять наличие на рабочем столе (или еще где-то) текстового документа, с 2-мя нужными мне адресами,
 	 * и если документа нет, то ничего происходить не должно, если же файл существует, то надо считать из него адреса файлов

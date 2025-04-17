@@ -49,7 +49,8 @@ public class MyGameSearcher {
 			nesServiceClass.windowShow("Интернет соединение отсутствует. Ищем на компе.");
 			
 			//MyGameFilesFinder.MyGameFilesAddress ();
-			MyNewGameFilesFinder.MyNewGameFilesAddress ();
+			//MyNewGameFilesFinder.MyNewGameFilesAddress ();
+			MyNewGameFilesFinder.MySuperGameFilesAddress ();
 		}
 			
 	/* мой новый Класс по проверке нахождения исходной папки проекта. Передаем туда название исходной папки,
@@ -82,7 +83,8 @@ public class MyGameSearcher {
 				/* формирование Списка games посредством поиска на компьютере */
 				
 				//MyGameFilesFinder.MyGameFilesAddress ();
-				MyNewGameFilesFinder.MyNewGameFilesAddress ();
+				//MyNewGameFilesFinder.MyNewGameFilesAddress ();
+				MyNewGameFilesFinder.MySuperGameFilesAddress ();
 				
 				/* условие, если перешли на работу с компа, а папка проекта не найдена -
 				 * переходим на поиск с Инета */
@@ -138,7 +140,8 @@ public class MyGameSearcher {
 					nesServiceClass.windowShow ("Интернет соединение отсутствует. Поищем на компе.");
 		
 					//MyGameFilesFinder.MyGameFilesAddress (); // мой "старый" метод поиска файлов (в папке GameSearch)
-					MyNewGameFilesFinder.MyNewGameFilesAddress (); // мой новый метод поиска файлов независимо
+					//MyNewGameFilesFinder.MyNewGameFilesAddress (); // мой новый метод поиска файлов независимо
+					MyNewGameFilesFinder.MySuperGameFilesAddress ();
 					
 					if (choice==1) { // это если инет пропал и на компе ничего не нашлось - конец проги
 						
