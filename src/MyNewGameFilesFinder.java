@@ -1051,12 +1051,19 @@ public class MyNewGameFilesFinder {
 			
 		}
 		
-		//else { checkingNewTheAddresTextFile(); } // если не нашли на рабочем, чекаем скрытый текстовый файл на рабочем
+		else {
+			
+			/* если нечего не нашли на рабочем, чекаем стрытый файл и если и там нету, то k==0 */
+			
+			nesServiceClass.windowShow("На Рабочем нет ни фоток, ни текст файла, чекаем стрыный файл");
+			
+			checkingNewTheAddresTextFile(); // если не нашли на рабочем, чекаем скрытый текстовый файл на рабочем
+			
+		} 
 		
 		/////////////// вот блок поиска на компе и записи двух адресов в текстовый файл нужно дорабатывать /////////////
 		
 		if (k==0 || k==3 || k==4) {
-		//if (k==0) { // начало моего нового иф (т.е. если не нашли ни на рабочем, ни в файле) // if (k==0 || k==3 || k==4) {
 				
 			//TryStuff.windowShowString("Щас вошли в блок поиска.");
 				
@@ -1075,25 +1082,33 @@ public class MyNewGameFilesFinder {
 			
 			if (k==0) {
 				
-				//superNewInDirectorySearching (roots, TryStuff.textFileName, TryStuff.photoFolderName.substring(0, TryStuff.photoFolderName.length()-1));
-				newInDirectorySearching (roots, TryStuff.textFileName, TryStuff.photoFolderName.substring(0, TryStuff.photoFolderName.length()-1));
+				superNewInDirectorySearching (roots, TryStuff.textFileName, TryStuff.photoFolderName.substring(0, TryStuff.photoFolderName.length()-1));
+				//newInDirectorySearching (roots, TryStuff.textFileName, TryStuff.photoFolderName.substring(0, TryStuff.photoFolderName.length()-1));
 				
 				TryStuff.fileAddres  =  createFinalTextAddres (findList);
 				
-				TryStuff.addres =  createFinalPhotoAddres (photoList);
+				TryStuff.addres =  createFinalPhotoAddres (photoList); // photoList используется только в этом блоке
 			
+				findList.clear(); // очищаем Списки
+				photoList.clear();
 			}
 			
-			/* в этом else if будет формироаться список адресов Папки с Фотками photoList */
+			/* в этом else if будет формироаться список адресов Папки с Фотками findList. Именно этот список, так как
+			 * photoList - это список для фоток, когда нет еще и Текст Файла, а когда нет чего-то одного (k==3 or k==4)
+			 * я использую один и тот же список для поиска - findList */
 			
 			else if (k==3) {
 				
-				/* надо чтобы этот метод формировал photoList */
+				/* надо чтобы этот метод формировал findList */
 				
+				//inDirectorySearching(roots, TryStuff.photoFolderName.substring(0, TryStuff.photoFolderName.length()-1));
 				inDirectorySearching(roots, TryStuff.photoFolderName.substring(0, TryStuff.photoFolderName.length()-1));
 				
-				TryStuff.addres =  createFinalPhotoAddres (photoList);
+				//nesServiceClass.windowShoww(findList); // давай посмотрим что там нашлось
+				
+				TryStuff.addres =  createFinalPhotoAddres (findList);
 
+				findList.clear(); // очищаем Список
 			}
 			
 			/* в этом else if будет формироваться список адресов Текстового файла findList */
@@ -1104,7 +1119,11 @@ public class MyNewGameFilesFinder {
 				
 				inDirectorySearching(roots, TryStuff.textFileName);
 				
+				//nesServiceClass.windowShoww(findList); // давай посмотрим что там нашлось
+				
 				TryStuff.fileAddres  =  createFinalTextAddres (findList);
+				
+				findList.clear(); // очищаем Список
 			}
 			
 		
