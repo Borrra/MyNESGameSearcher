@@ -51,6 +51,10 @@ public class MyGameSearcher {
 			//MyGameFilesFinder.MyGameFilesAddress ();
 			//MyNewGameFilesFinder.MyNewGameFilesAddress ();
 			MyNewGameFilesFinder.MySuperGameFilesAddress ();
+			
+			/* по окончании метода MySuperGameFilesAddress, если Текст файл не найден (вне зависимости от того,
+			 * найдена Папка с фотками или нет) choice = 1, т.е. программа завершается */
+			
 		}
 			
 	/* мой новый Класс по проверке нахождения исходной папки проекта. Передаем туда название исходной папки,
@@ -74,8 +78,7 @@ public class MyGameSearcher {
 		List <TryStuff> first;
 		List <TryStuff> second;
 		List <TryStuff> third;
-		
-		
+			
 		while (choice == 0) { // начало нашего основного цикла 
 			
 			if (webOrNot == 0) { // ищем на Компе
@@ -84,9 +87,19 @@ public class MyGameSearcher {
 				
 				//MyGameFilesFinder.MyGameFilesAddress ();
 				//MyNewGameFilesFinder.MyNewGameFilesAddress ();
-				MyNewGameFilesFinder.MySuperGameFilesAddress ();
+
+				/* если это запуск программы к==0, ищем файлы на компе. Если ничего не нашлось то в следующий раз
+				 * уже не будем искать */
 				
-				/* условие, если перешли на работу с компа, а папка проекта не найдена -
+				if (MyNewGameFilesFinder.k==0) {
+					
+					MyNewGameFilesFinder.MySuperGameFilesAddress ();
+				}
+				
+				/* по окончании метода MySuperGameFilesAddress, если Текст файл не найден (вне зависимости от того,
+				 * найдена Папка с фотками или нет) choice = 1, т.е. программа завершается */
+				
+				/* условие, если перешли на работу с компа, а текст файл не найден -
 				 * переходим на поиск с Инета */
 				
 				if (choice==1 && WebFileDownloader.isInternetAvailable()) {
@@ -96,27 +109,42 @@ public class MyGameSearcher {
 					 * компе, а оказалось, что папка отсутствует.
 					 * Надо предложить скачать все файлы с Инета (Git Hub) */
 					
-					////////////////// блок скачаваиня всей папки с фотографиями /////////////
-					
-					/* тут нужно окно с выбором: либо скачиваем все фотографии, либо
-					 * запускаемся с Инета 
-					 * если качаем, то WebPhotoFolderDownload.downloadFullFolder(); 
-					 * если смотрим с Инета, то просто далее */
-					
-					WebPhotoFolderDownload.downloadFullFolder();
-									
 					// скачаем Текстовый файл
 					
+					TryStuff.fileAddres = TryStuff.desktopPath + File.separator + TryStuff.projectFolderName + File.separator + TryStuff.textFileName;
+					
 					WebFileDownloader.fileFromWebCreator();
+					
+					if (nesServiceClass.yesNoWindow() == 0) {
+						
+						////////////////// блок скачаваиня всей папки с фотографиями /////////////
+						
+						/* тут нужно окно с выбором: либо скачиваем все фотографии, либо
+						 * запускаемся с Инета 
+						 * если качаем, то WebPhotoFolderDownload.downloadFullFolder(); 
+						 * если смотрим с Инета, то просто далее */
+						
+						TryStuff.addres = TryStuff.desktopPath + File.separator + TryStuff.projectFolderName + File.separator + TryStuff.photoFolderName;
+						
+						WebPhotoFolderDownload.downloadFullFolder();
+						
+						continue;
+						
+					} else {
+						
+						/* в этот блок мы перешли, если мы перешли вручную на работу с компа, на компе ничего нет,
+						 * текст файл скачался, затем мы отказались скачивать фотки. 
+						 * Может тут не надо запускатья с инета, а надо продолжать работу без фоток на компе?..
+						 * может все-таки webOrNot = 0 ?.. */
+						
+						choice = 0;   // запрещаем заканчивать программу
+						webOrNot = 1; // поиск в Инете
+						
+						nesServiceClass.windowShow("Запускаемся с Инета");
+						continue;
+					}
 		
-					/////////////////////////////////////////////////////////////////////////
-					
-					choice = 0;   // запрещаем заканчивать программу
-					webOrNot = 1; // поиск в Инете
-					
-					nesServiceClass.windowShow("Запускаемся с Инета");
-					continue;
-				}
+				} // конец if (choice==1 && WebFileDownloader.isInternetAvailable())
 				
 				/* здесь формируется Список моих объектов, при чтении инфы С КОМПЬЮТЕРА */
 				
@@ -160,8 +188,7 @@ public class MyGameSearcher {
 			///////////////// до этого момента все как и в основном проекте ////////////////////
 			
 			////////////////////////////// Эксперимент //////////////////////////////////
-			
-			
+					
 			//TryStuff.sortingListObjedts (games); // экспериментирую
 			
 			//nesServiceClass.getFieldArray(games, "creator");
@@ -460,7 +487,7 @@ public class MyGameSearcher {
 					first = games;
 				}
 				
-				// блок выбора Игр мышью
+				/* вот тут происходит первый вывод на экран списка найденных элементов */
 
 				if (webOrNot == 0) { // инета нет
 
@@ -471,8 +498,8 @@ public class MyGameSearcher {
 					nesServiceClass.webChoosingWithMouseWindow (first); // вывод фоток с Инета
 				}
 				
-			/* Если из показанного списка Игр выбирали хотябы Одну игру Мышью, т.е. если z4 = 1, то после этого Окна
-			     нас перебрасывает на начальный экран */	
+			/* Если из показанного списка Игр выбирали хотябы Одну игру Мышью, т.е. если z4 = 1, то после этого
+			 * (после просмотра нескольких игр мышью и нажатия ОК) нас перебрасывает на начальный экран */	
 				
 				if (TryStuff.z4 == 1) {
 					
@@ -555,12 +582,30 @@ public class MyGameSearcher {
 					
 					
 						if (webOrNot == 0) { // инета нет
+						
+						/* здесь я делал попытку сделать так, что если папку с фотками не нашли, то и попытки
+						 * показывать фотки не нужны */
+							
+//						if ( (webOrNot ==0) && (!TryStuff.addres.equals("")) ) {
+							
+							//nesServiceClass.windowShow ( "Это типо нормальный режим" );
 							
 							TryStuff.ShowPicturesTough(first);
 					
 							continue;
+//						
+//						} 
+//						
+//						else if ( (webOrNot ==0) && (TryStuff.addres.equals("")) ) {
+//							
+//							nesServiceClass.windowShow ( "Фотачки не показываем" );
+//							
+//							TryStuff.t = 0;
+//							
+//							//continue;
+//						}					
 						
-						} else {
+						} else  {
 			
 							TryStuff.webShowPicturesTough(first); // вывод фоток с Инета
 						

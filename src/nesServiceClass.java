@@ -715,4 +715,18 @@ public class nesServiceClass {
 		
 	}  // конец метода 15
     
+    /* 16. Простой Метод Да/Нет, возвращает 0 - если Да, 1 - если Нет, и -1 - если Крестик */
+	
+	public static int yesNoWindow () {
+		
+		// Show a dialog with Yes and No options
+		
+        int response = JOptionPane.showConfirmDialog(null, 
+                "Скачиваем папку с Фотками с Инета?", 
+                "Выберите вариант", 
+                JOptionPane.YES_NO_OPTION);
+        
+        return response;
+	}
+    
 } // конец Класса

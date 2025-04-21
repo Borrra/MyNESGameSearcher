@@ -28,7 +28,7 @@ public class MyNewGameFilesFinder {
 	/* заводим статитч. переменную для определения факта использования адреса папки с рабочего стола
 	 * или переписанного после поиска */
 	
-	private static int k=0;
+	public static int k=0; // надо найти где я ее испльзую и использую ли вообще
 	
 	/* заводим статическую переменную для подсчета количества вызовов Метода и регулировки глубины вложения */
 	
@@ -63,7 +63,7 @@ public class MyNewGameFilesFinder {
 				
 		return k;
 		
-	} // конец метода newisContainMethod()
+	} // конец метода 1.1 newisContainMethod()
 	
 	/* 1.2 вспомогательный Метод, принимающий 2 строки и проверяющий содержит ли первая строка вторую,.
 	 * Применяется в следующем Методе isContainList, т.е. данный метод не знает что ставнивать,
@@ -82,7 +82,7 @@ public class MyNewGameFilesFinder {
 				
 		return k;
 		
-	} // конец метода isContainMethod()
+	} // конец метода 1.2 isContainMethod()
 	
 	/* 2.1 следующий метод принимает Директорию (массив файлов) и две строки, которые ищет в названиях файлов/папок директории
 	 * если находится совпадение, путь к этому файлу/папке записывается в Список (статический).
@@ -111,7 +111,7 @@ public class MyNewGameFilesFinder {
 			
 		} // конец нашего цикла for
 		
-	} // конец Метода newIsContainList()
+	} // конец Метода 2.1 newIsContainList()
 	
 	/* 2.2 Метод будет принимать 2 строки для нахождения их в Директориях, и формировать 2 списка:
 	 * Список адресов Папок с фотками и Список адресов Текстовых Файлов */
@@ -149,7 +149,7 @@ public class MyNewGameFilesFinder {
 			
 		} // конец нашего цикла for
 		
-	} // конец Метода newIsContainList()
+	} // конец Метода 2.2 superNewIsContainList
 	
 	/* 2.3 следующий метод принимает Директорию (массив файлов) и Строку, которую ищет в названиях файлов/папок директории
 	 * если находится совпадение, путь к этому файлу/папке записывается в Список (статический).
@@ -228,7 +228,7 @@ public class MyNewGameFilesFinder {
 		
 		} // конец цикла for
 		
-	} // конец 3-го метода newInDirectorySearching
+	} // конец 3.1 метода newInDirectorySearching
 	
 	/* 3.2 Метод получает директорию и имя файла/папки и осуществляет их поиск в этой директории
 	 * с заданной глубиной вложения, т.е. использует Рекурсию и формирует Список со всеми
@@ -334,8 +334,8 @@ public class MyNewGameFilesFinder {
 		
 	} // конец 3.3-го метода inDirectorySearching
 	
-	/* 4. Метод, который формирует адреса моих двух файлов, нахорящихся в разный местах
-	 * а не в папке Проекта. Применяется в main */
+	/* 4.1 Метод (уже старый, сильно большой и перегруженный) который формирует адреса моих двух файлов, нахорящихся в разный местах
+	 * а не в папке Проекта. Применяется в main. Сейчас вместо него использую MySuperNewGameFilesAddress  */
 	
 	public static void MyNewGameFilesAddress () {  
 		
@@ -710,6 +710,8 @@ public class MyNewGameFilesFinder {
 		
 		String adres = "";
 		
+		/* если передаем НЕ пустой список */
+		
 		if ( MyList.size() !=0 ) {
 			
 			/* цикл отсеивания из Списка адресов, ссылающихся на Ресайкл Бины */
@@ -791,21 +793,27 @@ public class MyNewGameFilesFinder {
 				e.printStackTrace();
 			}
 			
+			/* вот это и возвращаем, если в Метод передавался не пустой список */
+			
 			return adres;
 			
 		} else {
+			
+			/* если в Метод передали пустой Список, возвращается "" */
 			
 			return adres;
 		}
 	
 	} // конец Метода 4.2
 	
-	/* 4.2 Метод по определению адреса Папки с Фотками из Списка всех найденных
-	 * Если Список пустой, метод вернет строку "" */
+	/* 4.3 Метод по определению адреса Папки с Фотками из Списка всех найденных
+	 * Если Список пустой, метод вернет строку "". Использую ниже в метода 4.4 */
 	
 	public static String createFinalPhotoAddres (ArrayList <String> MyList) {
 		
 		String adres = "";
+		
+		/* если в Метод передали НЕ пустой список */
 		
 		if (MyList.size() !=0 ) {
 			
@@ -887,14 +895,18 @@ public class MyNewGameFilesFinder {
 				e.printStackTrace();
 			}
 			
+			/* вот это возвращается, если в Метод передали не пустой список */
+			
 			return adres;
 			
 		} else {
 			
-			return adres;
+			return adres; // здесь возвращается "" - это если передали пустой Список
 		}
 	
-	} // конец Метода 4.3
+	} // конец Метода 4.3 createFinalPhotoAddres
+	
+	/* 4.4 Это Метод, который пишет в Скрытый Текстовый файл переменные TryStuff.fileAddres и TryStuff.addres */
 	
 	public static void writingFilesToHiddingFile () {
 		
@@ -939,7 +951,7 @@ public class MyNewGameFilesFinder {
 						
 					writer.write (TryStuff.fileAddres);
 					writer.newLine();
-					writer.write (TryStuff.addres+"\n");
+					writer.write (TryStuff.addres +"\n");
 						
 				} catch (IOException e) {
 					e.printStackTrace();
@@ -955,10 +967,10 @@ public class MyNewGameFilesFinder {
 					
 					writer.write (TryStuff.fileAddres);
 					writer.newLine();
-					writer.write (TryStuff.addres+"\n");
+					writer.write (TryStuff.addres +"\n");
 					
 					Files.setAttribute(hiddenFile, "dos:hidden", true); // делаем файл Скрытым
-					
+					  
 				} catch (IOException e) {
 						
 					e.printStackTrace();
@@ -973,8 +985,8 @@ public class MyNewGameFilesFinder {
 		}
 	}
 	
-	/* 4.4 Супер копия моего 4.1 Метода - Экспериментальная. Формирует адреса моих двух файлов, нахорящихся
-	 * в разный местах а не в папке Проекта. Хоче применить его в main */
+	/* 4.5 Супер копия моего 4.1 Метода - Экспериментальная. Формирует адреса моих двух файлов, находящихся
+	 * в разный местах а не в папке Проекта. Применяю его в main */
 	
 	public static void MySuperGameFilesAddress () {  
 		
@@ -988,21 +1000,14 @@ public class MyNewGameFilesFinder {
 		File find_PhotoFolder = new File (TryStuff.desktopPath + File.separator + TryStuff.projectFolderName + File.separator +
 				TryStuff.photoFolderName.substring(0, TryStuff.photoFolderName.length()-1));  // фото-папка
 	
-		/* папка будет считаться существующей в 2-х случаях: если существуют текстовый файл и файл с фотками */
+	////////////////////////////////////////////////////////////////////////////////////////////////////
 		
-		/*В первом случае k=1, это когда файлы нашлись на Рабочем столе
-		 * во втором случае k=2, это когда адреса файлов нашлись по адресам из скрытого текстового файла на рабочем столе
-		 * это происходит в методе 5.checkingNewTheAddresTextFile(),
-		 * в трерьем случае k=0, когда не нашлось ни на рабочем ни по адресам в файле и тогда начинается поиск на компьютере.
-		 * Сейчас (15.04.25) я добавил еще 2 случая, когда на Рабочем нашелся только Текст Файл (k=3) и когда на Рабочем нашлись
-		 * только Фотки (k=4) действий пока никаких */
-
-		/*ВОТ ЗДЕСЬ НУЖНО БУДЕТ ВНЕСТИ ИЗМЕНЕНИЯ: у меня последующее if идет по выполнению сразу двух условий, а надо сделать по отдельности.
-		 если например заменить && на || и уже в этом модуле сделать отдельные if для каждого случая.. и в каждом случае будет свое k и далее
-		 в зависомости от значения k будут выполнения соответствующие меры.
-		 Если нашли только текстовый файл, значит надо искать папку с фотками - сначало по ссылке в скрытом текст файле а потом уже и на
-		 Git Hub, но если не нашли фотки, прога все равно может запуститься. Если нашли только фотки, то надо искать Текст Файл */
-		
+		/* это блок в котором определяется что мы имеем. Есть 4 случая:
+		 * 1. Оба файла нашлись на Рабочем Столе к==1
+		 * 2. Текст файла на рабочем, Папки с фотками нет к==3
+		 * 3. Папка с фотками на рабочем, Текст файла нет к==4
+		 * 4. На Рабочем ни нашлос ничего к==0 */
+				
 		if ( find_TextFile.exists()  && find_PhotoFolder.exists()     ) {
 		
 			TryStuff.fileAddres = TryStuff.desktopPath + File.separator + TryStuff.projectFolderName + File.separator + TryStuff.textFileName;
@@ -1019,9 +1024,11 @@ public class MyNewGameFilesFinder {
 		
 		else if ( find_TextFile.exists() && !find_PhotoFolder.exists() ) {
 			
-			checkingNewTheAddresTextFile();
+			/* чекаем скрытый текст файл на наличие адресов наших вайлов, если нашлись k==2, если нет - k==0 */
 			
-			if (k==0) {
+			checkingNewTheAddresTextFile(); 
+			
+			if (k==0) { // если адреса в скрытом текст файле не нашлись
 				
 				nesServiceClass.windowShow ("Текст Файл есть, Фоток нет");   // тестовое else if - работает
 				
@@ -1029,17 +1036,18 @@ public class MyNewGameFilesFinder {
 				 * статической перменной TryStuff.addres (и возможно прописть в скрытый текст. файл + прописать туда и адрес  Текст Файла) */
 				
 				k=3; // метка, что Фоток нет
-			}
-			
+			}		
 		}
 		
 		/* если папка с Фотками есть, а Текст Файла нет (т.е. ищем только Текст Файл) */
 		
 		else if ( find_PhotoFolder.exists() && !find_TextFile.exists() ) {
 			
+			/* чекаем скрытый текст файл на наличие адресов наших вайлов, если нашлись k==2, если нет - k==0 */
+			
 			checkingNewTheAddresTextFile();
 			
-			if (k==0) {
+			if (k==0) { // если адреса в скрытом текст файле не нашлись
 				
 				nesServiceClass.windowShow("Фотки есть, а Текст Файла нет"); // тестовое else if - работает
 				
@@ -1047,23 +1055,23 @@ public class MyNewGameFilesFinder {
 				 * статической переменной TryStuff.fileAddres (и возможно прописать в скрытый текст. файл) */
 				
 				k=4; // метка, что Текст Файла нет
-			}
-			
+			}			
 		}
 		
 		else {
 			
 			/* если нечего не нашли на рабочем, чекаем стрытый файл и если и там нету, то k==0 */
 			
-			nesServiceClass.windowShow("На Рабочем нет ни фоток, ни текст файла, чекаем стрыный файл");
+			nesServiceClass.windowShow("На Рабочем нет ни фоток, ни текст файла, чекаем скрытый файл");
 			
-			checkingNewTheAddresTextFile(); // если не нашли на рабочем, чекаем скрытый текстовый файл на рабочем
-			
-		} 
+			checkingNewTheAddresTextFile(); 	
+		}
 		
-		/////////////// вот блок поиска на компе и записи двух адресов в текстовый файл нужно дорабатывать /////////////
+	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////	
+	
+	//////////// блок поиска по компьютеру и формирования наших Статических Переменных - адресов наших файлов //////////
 		
-		if (k==0 || k==3 || k==4) {
+		if (k==0 || k==3 || k==4) { // если нужен поиск, т.е. если нет ни на рабочем ни в скрытом файле
 				
 			//TryStuff.windowShowString("Щас вошли в блок поиска.");
 				
@@ -1082,6 +1090,8 @@ public class MyNewGameFilesFinder {
 			
 			if (k==0) {
 				
+				/* здась используем метод, который формирует 2 списка */
+				
 				superNewInDirectorySearching (roots, TryStuff.textFileName, TryStuff.photoFolderName.substring(0, TryStuff.photoFolderName.length()-1));
 				//newInDirectorySearching (roots, TryStuff.textFileName, TryStuff.photoFolderName.substring(0, TryStuff.photoFolderName.length()-1));
 				
@@ -1093,9 +1103,7 @@ public class MyNewGameFilesFinder {
 				photoList.clear();
 			}
 			
-			/* в этом else if будет формироаться список адресов Папки с Фотками findList. Именно этот список, так как
-			 * photoList - это список для фоток, когда нет еще и Текст Файла, а когда нет чего-то одного (k==3 or k==4)
-			 * я использую один и тот же список для поиска - findList */
+			/* в этом else if будет формироаться список адресов Папки с Фотками findList */
 			
 			else if (k==3) {
 				
@@ -1106,7 +1114,10 @@ public class MyNewGameFilesFinder {
 				
 				//nesServiceClass.windowShoww(findList); // давай посмотрим что там нашлось
 				
-				TryStuff.addres =  createFinalPhotoAddres (findList);
+				/* далее используем метод по обрабоке списка найденных адресов Папки с фотографиями
+				 * и выделения из него одного подходящего нам */
+				
+				TryStuff.addres =  createFinalPhotoAddres (findList); 
 
 				findList.clear(); // очищаем Список
 			}
@@ -1121,12 +1132,14 @@ public class MyNewGameFilesFinder {
 				
 				//nesServiceClass.windowShoww(findList); // давай посмотрим что там нашлось
 				
+				/* далее используем метод по обрабоке списка найденных адресов Текстовог файла
+				 * и выделения из него одного подходящего нам */
+				   
 				TryStuff.fileAddres  =  createFinalTextAddres (findList);
 				
 				findList.clear(); // очищаем Список
 			}
-			
-		
+					
 			/////////////////// Блок закрытия окна длительности процесса после того как поиск закончился ////////////////////
 
 			SwingUtilities.invokeLater(() -> {
@@ -1138,12 +1151,11 @@ public class MyNewGameFilesFinder {
 
 			});
 			
-			
-		///////////////////////////////////////////////////////////////////////////////////////////////////////
+		    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 			
 			nesServiceClass.windowShow ("Блок формирования переменных окончен");
-			nesServiceClass.windowShow ("TryStuff.fileAddres - " + TryStuff.fileAddres);
-			nesServiceClass.windowShow ("TryStuff.addres - " + TryStuff.addres);
+			nesServiceClass.windowShow ("TryStuff.fileAddres - \"" + TryStuff.fileAddres + "\"");
+			nesServiceClass.windowShow ("TryStuff.addres - \"" + TryStuff.addres + "\"");
 			
 			///////////////////// блок записи найденных адресов в текстовый файл на рабочем столе ///////////////////
 				
@@ -1151,7 +1163,21 @@ public class MyNewGameFilesFinder {
 				
 				writingFilesToHiddingFile (); // пишем адреса в скрытый файл
 				
-			} else {
+				/* если папка с фотками отсутствовала и потом нашлась, то надо обнулить k, чтобы фотки
+				 * показыались (если k==3, методы по выводу фоток не работают) */
+				
+				if (k==3) { // если папка с фотками отсутствовола
+					
+					nesServiceClass.windowShow ("Адреса вроде пишем, а фоток нет");
+					
+					if (!TryStuff.addres.equals("")) {
+						
+						k=0;
+						
+					}
+				}
+				
+			} else { // если Текст Файл не найден (не важно нашлись фотки или нет)
 				
 				nesServiceClass.windowShow ("На этом компе ничего нет, извините.");
 
@@ -1160,7 +1186,7 @@ public class MyNewGameFilesFinder {
 		
 		} // конец основного if (k==0, 3 or 4)
 	
-	} // конец Метода 4.4 MyNewGameFilesAddress
+	} // конец Метода 4.4 MySuperGameFilesAddress
 	
 	/* 5. Метод, который будет проверять наличие на рабочем столе (или еще где-то) текстового документа, с 2-мя нужными мне адресами,
 	 * и если документа нет, то ничего происходить не должно, если же файл существует, то надо считать из него адреса файлов

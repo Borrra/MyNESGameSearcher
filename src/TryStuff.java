@@ -444,29 +444,41 @@ public class TryStuff {
      * используется в main */
         
     public static void ShowPictures(List <TryStuff> arrg) {
+       
+    	if (MyNewGameFilesFinder.k!=3) {
+    		
+    		ImageIcon img;
         	
-       ImageIcon img;
-        	
-        String[] pics = TryStuff.gamePics(arrg, TryStuff.m-1);
+    		String[] pics = TryStuff.gamePics(arrg, TryStuff.m-1);
 			
-        /* организуем цикл по выводу фоток на экран с Комрьютера. За один цикл показываем одну фотку.
-         * Количество циклов зависит от содержания поля amount, для его получения используем метод
-         * TryStuff.getAmount(arrg, TryStuff.m-1) класса TryStuff. Т.е. сколько фоток столько
-         * и итераций */
+    		/* организуем цикл по выводу фоток на экран с Комрьютера. За один цикл показываем одну фотку.
+    		 * Количество циклов зависит от содержания поля amount, для его получения используем метод
+    		 * TryStuff.getAmount(arrg, TryStuff.m-1) класса TryStuff. Т.е. сколько фоток столько
+    		 * и итераций */
         	
-        for (int i=0; i<TryStuff.getAmount(arrg, TryStuff.m-1); i++) {
+    		for (int i=0; i<TryStuff.getAmount(arrg, TryStuff.m-1); i++) {
         		
-        	img = new ImageIcon(pics[i]);
-			JOptionPane.showMessageDialog(null, img, "That's the Game Photo", JOptionPane.PLAIN_MESSAGE);
-        }
+    			img = new ImageIcon(pics[i]);
+    			JOptionPane.showMessageDialog(null, img, "That's the Game Photo", JOptionPane.PLAIN_MESSAGE);
+    		}
         	
-        /* обнуляем переменные */
+    		/* обнуляем переменные */
         	
-        TryStuff.m = 0;
-		TryStuff.t = 0;
-		TryStuff.j3 = "";
-		TryStuff.j2 = "all Games";
+    		TryStuff.m = 0;
+    		TryStuff.t = 0;
+    		TryStuff.j3 = "";
+    		TryStuff.j2 = "all Games";
         	
+    	} else {
+    		
+    		/* обнуляем переменные */
+        	
+    		TryStuff.m = 0;
+    		TryStuff.t = 0;
+    		TryStuff.j3 = "";
+    		TryStuff.j2 = "all Games";
+    	}
+    	
     } // конец метода 3.1
         
     /* 3.2 Метод по выводу фоток выбором путем ввода *_ _ _ c Компьютера,
@@ -474,37 +486,49 @@ public class TryStuff {
         
     public static void ShowPicturesTough(List <TryStuff> arrg) {
         	
-        ImageIcon img;
+    	if (MyNewGameFilesFinder.k!=3) {
+    		
+    		ImageIcon img;
         	
-        String[] pics = TryStuff.gamePics(arrg, TryStuff.m-1);
+    		String[] pics = TryStuff.gamePics(arrg, TryStuff.m-1);
         	
-        /* следующее условие служит для проверки адекватности вводимого пользователем номера
-         * Игры (равному номеру игры в показываемом списке), т.е. число не может быть меньше нуля
-         * и должно быть в пределах номеров показываемых игр */
+    		/* следующее условие служит для проверки адекватности вводимого пользователем номера
+    		 * Игры (равному номеру игры в показываемом списке), т.е. число не может быть меньше нуля
+    		 * и должно быть в пределах номеров показываемых игр */
         	
-        if (TryStuff.m>0 && TryStuff.m <= arrg.size()) {
+    		if (TryStuff.m>0 && TryStuff.m <= arrg.size()) {
         		
-        	/* организуем цикл по выводу фоток на экран с Комрьютера. За один цикл показываем одну фотку.
-	         * Количество циклов зависит от содержания поля amount, для его получения используем метод
-	         * TryStuff.getAmount(arrg, TryStuff.m-1) класса TryStuff. Т.е. сколько фоток столько
-	         * и итераций */
+    			/* организуем цикл по выводу фоток на экран с Комрьютера. За один цикл показываем одну фотку.
+    			 * Количество циклов зависит от содержания поля amount, для его получения используем метод
+    			 * TryStuff.getAmount(arrg, TryStuff.m-1) класса TryStuff. Т.е. сколько фоток столько
+    			 * и итераций */
         		
-        	for (int i=0; i<TryStuff.getAmount(arrg, TryStuff.m-1); i++) {
+    			for (int i=0; i<TryStuff.getAmount(arrg, TryStuff.m-1); i++) {
 					
-				img = new ImageIcon(pics[i]);
-				JOptionPane.showMessageDialog(null, img, "That's the Game Photo", JOptionPane.PLAIN_MESSAGE);
-			}
+    				img = new ImageIcon(pics[i]);
+    				JOptionPane.showMessageDialog(null, img, "That's the Game Photo", JOptionPane.PLAIN_MESSAGE);
+    			}
         		
-        	/* обнуляем переменные */
+    			/* обнуляем переменные */
         		
-        	TryStuff.m = 0;
+    			TryStuff.m = 0;
+    			TryStuff.t = 0;
+    			TryStuff.j3 = "";
+    			TryStuff.j2 = "all Games";
+    		}
+   	
+    		else return;
+        
+    	} else {
+    		
+    		/* обнуляем переменные */
+    		
+			TryStuff.m = 0;
 			TryStuff.t = 0;
 			TryStuff.j3 = "";
 			TryStuff.j2 = "all Games";
-        }
-   	
-        else return;
-        	
+    	}
+    	
    } // конец Метода № 3.2
    
 //////////////////////// 2 Метода (3.3 и 3.4) по выводу фоток на экран с Интернета //////////////////////////////  
