@@ -138,9 +138,9 @@ public class MyGameSearcher {
 						 * может все-таки webOrNot = 0 ?.. */
 						
 						choice = 0;   // запрещаем заканчивать программу
-						webOrNot = 1; // поиск в Инете
+						//webOrNot = 0; // поиск в Инете
 						
-						nesServiceClass.windowShow("Запускаемся с Инета");
+						nesServiceClass.windowShow("Запускаемся без использования Фоток");
 						continue;
 					}
 		
@@ -436,6 +436,8 @@ public class MyGameSearcher {
 				
 				if ( TryStuff.j.equals("exper") ) {
 
+					nesServiceClass.windowShow("Наша К = " + MyNewGameFilesFinder.k);
+					
 					//WebPhotoFolderDownload.checkLocalFolder();
 					
 //					String ka = WebPhotoFolderDownload.minusLastPart(TryStuff.addres, "\\\\");
@@ -460,7 +462,7 @@ public class MyGameSearcher {
 					
 					//WebPhotoFolderDownload.differListPhotoToDownload();
 									
-					break;
+					continue;
 				}
 		
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

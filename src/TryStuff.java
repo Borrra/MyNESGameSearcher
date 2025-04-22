@@ -445,6 +445,9 @@ public class TryStuff {
         
     public static void ShowPictures(List <TryStuff> arrg) {
        
+    	/* условие, когда фотки показываются только в случае их нахождения на компьютере. Если папка с фотками
+    	 * на компе отсутствует, прога будет работать, без их показа */
+    	
     	if (MyNewGameFilesFinder.k!=3) {
     		
     		ImageIcon img;
@@ -486,6 +489,9 @@ public class TryStuff {
         
     public static void ShowPicturesTough(List <TryStuff> arrg) {
         	
+    	/* условие, когда фотки показываются только в случае их нахождения на компьютере. Если папка с фотками
+    	 * на компе отсутствует, прога будет работать, без их показа */
+    	
     	if (MyNewGameFilesFinder.k!=3) {
     		
     		ImageIcon img;
