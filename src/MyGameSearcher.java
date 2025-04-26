@@ -91,11 +91,11 @@ public class MyGameSearcher {
 				/* если это запуск программы к==0, ищем файлы на компе. Если ничего не нашлось то в следующий раз
 				 * уже не будем искать */
 				
-				if (MyNewGameFilesFinder.k==0) {
+				if (MyNewGameFilesFinder.k==0 || MyNewGameFilesFinder.k==6) {
 					
 					MyNewGameFilesFinder.MySuperGameFilesAddress ();
 				}
-				
+		
 				/* по окончании метода MySuperGameFilesAddress, если Текст файл не найден (вне зависимости от того,
 				 * найдена Папка с фотками или нет) choice = 1, т.е. программа завершается */
 				
@@ -363,7 +363,8 @@ public class MyGameSearcher {
 				
 				// 5. если вводим test или тест выводится список опций ввода
 				
-				if (TryStuff.j.equals("test")||(TryStuff.j.equals("тест"))) {
+				if ( TryStuff.j.equals("info")||(TryStuff.j.equals("инфа"))||(TryStuff.j.equals("infa"))
+						||(TryStuff.j.equals("test"))||(TryStuff.j.equals("тест"))) {
 					
 					nesServiceClass.informWindow();
 					
@@ -377,6 +378,7 @@ public class MyGameSearcher {
 					
 					webOrNot = 0;
 					
+					MyNewGameFilesFinder.k=6;
 					TryStuff.t = 0;
 					continue;
 				}
@@ -432,11 +434,22 @@ public class MyGameSearcher {
 					break;
 				}
 				
-		//////////////////////// 12. вводя "exper" можно проверить какую-то часть кода /////////////////////////////////
+				/* 12. Если при переходе на поиск на компе, нашелся только Текст файл, но если потом каким-то образом
+				 * на компе могли появится фотки, то введя "checkPhoto" можно активировать повторный поиск файлов на компе */ 
 				
-				if ( TryStuff.j.equals("exper") ) {
+				if ( TryStuff.j.equals("checkPhoto") ) {
 
 					nesServiceClass.windowShow("Наша К = " + MyNewGameFilesFinder.k);
+					
+					TryStuff.t = 0;
+					MyNewGameFilesFinder.k = 6;
+					
+					continue;
+				}
+				
+		//////////////////////// 13. вводя "exper" можно проверить какую-то часть кода /////////////////////////////////
+				
+				if ( TryStuff.j.equals("exper") ) {
 					
 					//WebPhotoFolderDownload.checkLocalFolder();
 					

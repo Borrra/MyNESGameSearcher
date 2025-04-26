@@ -448,7 +448,7 @@ public class TryStuff {
     	/* условие, когда фотки показываются только в случае их нахождения на компьютере. Если папка с фотками
     	 * на компе отсутствует, прога будет работать, без их показа */
     	
-    	if (MyNewGameFilesFinder.k!=3) {
+    	if (MyNewGameFilesFinder.k!=3 && MyNewGameFilesFinder.k!=5) {
     		
     		ImageIcon img;
         	
@@ -492,7 +492,7 @@ public class TryStuff {
     	/* условие, когда фотки показываются только в случае их нахождения на компьютере. Если папка с фотками
     	 * на компе отсутствует, прога будет работать, без их показа */
     	
-    	if (MyNewGameFilesFinder.k!=3) {
+    	if (MyNewGameFilesFinder.k!=3 && MyNewGameFilesFinder.k!=5) {
     		
     		ImageIcon img;
         	
