@@ -47,10 +47,8 @@ public class MyGameSearcher {
 			 * если и на компе ничего не найдется - конец программы. */
 			
 			nesServiceClass.windowShow("Интернет соединение отсутствует. Ищем на компе.");
-			
-			//MyGameFilesFinder.MyGameFilesAddress ();
-			//MyNewGameFilesFinder.MyNewGameFilesAddress ();
-			MyNewGameFilesFinder.MySuperGameFilesAddress ();
+
+			MyNewGameFilesFinder.formingGameFilesAddress (); // метод 4.5
 			
 			/* по окончании метода MySuperGameFilesAddress, если Текст файл не найден (вне зависимости от того,
 			 * найдена Папка с фотками или нет) choice = 1, т.е. программа завершается */
@@ -89,11 +87,12 @@ public class MyGameSearcher {
 				//MyNewGameFilesFinder.MyNewGameFilesAddress ();
 
 				/* если это запуск программы к==0, ищем файлы на компе. Если ничего не нашлось то в следующий раз
-				 * уже не будем искать */
+				 * уже не будем искать. к==6 - это случай, когда вручную ввели "checkPhoto" и инициируется пов-
+				 * торный поиск папки с фотками на корпе */
 				
 				if (MyNewGameFilesFinder.k==0 || MyNewGameFilesFinder.k==6) {
 					
-					MyNewGameFilesFinder.MySuperGameFilesAddress ();
+					MyNewGameFilesFinder.formingGameFilesAddress ();
 				}
 		
 				/* по окончании метода MySuperGameFilesAddress, если Текст файл не найден (вне зависимости от того,
@@ -166,10 +165,8 @@ public class MyGameSearcher {
 					 * файлы на компе и осуществлять поиск и загрузку */
 					
 					nesServiceClass.windowShow ("Интернет соединение отсутствует. Поищем на компе.");
-		
-					//MyGameFilesFinder.MyGameFilesAddress (); // мой "старый" метод поиска файлов (в папке GameSearch)
-					//MyNewGameFilesFinder.MyNewGameFilesAddress (); // мой новый метод поиска файлов независимо
-					MyNewGameFilesFinder.MySuperGameFilesAddress ();
+
+					MyNewGameFilesFinder.formingGameFilesAddress ();
 					
 					if (choice==1) { // это если инет пропал и на компе ничего не нашлось - конец проги
 						
@@ -598,28 +595,10 @@ public class MyGameSearcher {
 					
 						if (webOrNot == 0) { // инета нет
 						
-						/* здесь я делал попытку сделать так, что если папку с фотками не нашли, то и попытки
-						 * показывать фотки не нужны */
-							
-//						if ( (webOrNot ==0) && (!TryStuff.addres.equals("")) ) {
-							
-							//nesServiceClass.windowShow ( "Это типо нормальный режим" );
-							
 							TryStuff.ShowPicturesTough(first);
 					
-							continue;
-//						
-//						} 
-//						
-//						else if ( (webOrNot ==0) && (TryStuff.addres.equals("")) ) {
-//							
-//							nesServiceClass.windowShow ( "Фотачки не показываем" );
-//							
-//							TryStuff.t = 0;
-//							
-//							//continue;
-//						}					
-						
+							continue;					
+
 						} else  {
 			
 							TryStuff.webShowPicturesTough(first); // вывод фоток с Инета
